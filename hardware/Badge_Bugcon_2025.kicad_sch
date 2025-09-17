@@ -1,0 +1,308 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a95785a0-0aa1-454e-b59f-0ac64970ac71")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 72.39 68.58) (xy 125.73 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02776271-1a5c-4508-8a7e-f7a24477074a")
+	)
+	(wire
+		(pts
+			(xy 72.39 66.04) (xy 125.73 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8269b976-ae68-4277-9ca7-28d89a65af1c")
+	)
+	(wire
+		(pts
+			(xy 72.39 58.42) (xy 125.73 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b42203b-d651-438c-95ca-1cd724e7a017")
+	)
+	(wire
+		(pts
+			(xy 72.39 71.12) (xy 125.73 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cec34dcb-4507-4823-8e69-de120b4e5e8b")
+	)
+	(wire
+		(pts
+			(xy 72.39 73.66) (xy 125.73 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d328885c-b87c-4dde-a077-e393a440a501")
+	)
+	(wire
+		(pts
+			(xy 72.39 55.88) (xy 125.73 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5ddc855-9c70-4958-90f9-4a59b5076d46")
+	)
+	(wire
+		(pts
+			(xy 72.39 60.96) (xy 125.73 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1881807-3cdb-46f8-98a6-96c5404653b7")
+	)
+	(sheet
+		(at 47.498 52.07)
+		(size 24.892 24.892)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "777dc19f-2824-4c28-abba-46be3f558275")
+		(property "Sheetname" "Buck_Converter"
+			(at 47.498 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 47.498 77.5466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "POGO_RX" input
+			(at 72.39 58.42 0)
+			(uuid "88e7a5b6-a008-409a-a573-82b0b3004072")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "POGO_TX" output
+			(at 72.39 60.96 0)
+			(uuid "98947816-ed99-4bea-88ff-4ffd8459ed16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V5V" output
+			(at 72.39 55.88 0)
+			(uuid "6c33d219-e050-48de-8729-a6914576ff82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC_DDR" output
+			(at 72.39 66.04 0)
+			(uuid "55c15f67-ef2b-4691-9dc5-7696cdcfb4c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "v_0.9v" output
+			(at 72.39 68.58 0)
+			(uuid "54acb56e-ab98-434c-bb92-b5fc96d62e40")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "v_1.8v" output
+			(at 72.39 71.12 0)
+			(uuid "4e99ec18-9aa3-410f-ad41-cb7b2172cbbc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "v_3v3" output
+			(at 72.39 73.66 0)
+			(uuid "97988555-5c56-4ec4-b0b4-3ec9e5809fa1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Badge_Bugcon_2025"
+				(path "/a95785a0-0aa1-454e-b59f-0ac64970ac71"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 52.07)
+		(size 38.354 60.96)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b4a4bbe3-3d97-4ef8-9067-81f34711c2c0")
+		(property "Sheetname" "MCU"
+			(at 125.73 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 125.73 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "POGO_RX" input
+			(at 125.73 58.42 180)
+			(uuid "e405030f-3ba6-4da9-8f0c-c7195abd3fea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "POGO_TX" output
+			(at 125.73 60.96 180)
+			(uuid "1034b214-a123-4688-90d9-8eaa4e28214c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V5V" output
+			(at 125.73 55.88 180)
+			(uuid "f88857fa-862e-4169-b889-d04e9b2d0c28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC_DDR" input
+			(at 125.73 66.04 180)
+			(uuid "c690189d-b072-4947-9e09-53b424fa519d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "v_0.9v" input
+			(at 125.73 68.58 180)
+			(uuid "1abbaf52-70bc-4f62-9736-26f4ec2855fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "v_1.8v" input
+			(at 125.73 71.12 180)
+			(uuid "94ec0139-d27a-4ef0-a2f2-cdcf962a0e95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "v_3v3" input
+			(at 125.73 73.66 180)
+			(uuid "c897bb3d-abb3-4933-8d34-5ccbf78c8444")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Badge_Bugcon_2025"
+				(path "/a95785a0-0aa1-454e-b59f-0ac64970ac71"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
