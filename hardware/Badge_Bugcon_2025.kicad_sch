@@ -89,6 +89,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 91.44) (xy 125.73 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "556020fb-e29b-4ba8-9c9c-0f405511cd5d")
+	)
+	(wire
+		(pts
 			(xy 181.61 113.03) (xy 181.61 120.65)
 		)
 		(stroke
@@ -797,6 +807,16 @@
 				(justify right)
 			)
 		)
+		(pin "USB_DET" output
+			(at 77.47 91.44 0)
+			(uuid "19322214-23d0-40e8-ab94-dc3135158f9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Badge_Bugcon_2025"
 				(path "/a95785a0-0aa1-454e-b59f-0ac64970ac71"
@@ -1072,6 +1092,16 @@
 		(pin "D-" input
 			(at 125.73 88.9 180)
 			(uuid "44efa5c7-a60d-4a5b-a6b6-1ed328e5892c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DET" input
+			(at 125.73 91.44 180)
+			(uuid "7081e689-757a-499a-be5e-7e9d8510c2a7")
 			(effects
 				(font
 					(size 1.27 1.27)

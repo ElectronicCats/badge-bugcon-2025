@@ -5485,15 +5485,6 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C2759535"
-			(at 63.246 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field6" ""
 			(at 69.85 161.29 0)
 			(effects
@@ -5548,6 +5539,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC#" "C2759535"
+			(at 69.85 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5750,15 +5750,6 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C2759535"
-			(at 55.626 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field6" ""
 			(at 62.23 161.29 0)
 			(effects
@@ -5813,6 +5804,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC#" "C2759535"
+			(at 62.23 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6014,8 +6014,8 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C400631"
-			(at 111.76 152.4 0)
+		(property "LCSC#" "C400631"
+			(at 111.76 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6092,15 +6092,6 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C77020"
-			(at 260.35 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field6" ""
 			(at 260.35 44.45 0)
 			(effects
@@ -6155,6 +6146,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC#" "C77020"
+			(at 260.35 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6356,8 +6356,8 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C524558"
-			(at 187.96 41.91 0)
+		(property "LCSC#" "C524558"
+			(at 187.96 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6434,15 +6434,6 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C2759535"
-			(at 128.016 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field6" ""
 			(at 134.62 153.67 0)
 			(effects
@@ -6497,6 +6488,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC#" "C2759535"
+			(at 134.62 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6568,15 +6568,6 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C77020"
-			(at 151.13 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field6" ""
 			(at 151.13 35.56 0)
 			(effects
@@ -6631,6 +6622,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC#" "C77020"
+			(at 151.13 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6702,15 +6702,6 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C2759535"
-			(at 120.396 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field6" ""
 			(at 127 153.67 0)
 			(effects
@@ -6765,6 +6756,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC#" "C2759535"
+			(at 127 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6836,15 +6836,6 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C2759535"
-			(at 235.204 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field6" ""
 			(at 228.6 107.95 0)
 			(effects
@@ -6899,6 +6890,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC#" "C2759535"
+			(at 228.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6970,15 +6970,6 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C2759535"
-			(at 241.554 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field6" ""
 			(at 234.95 107.95 0)
 			(effects
@@ -7033,6 +7024,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC#" "C2759535"
+			(at 234.95 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7170,8 +7170,8 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C279952"
-			(at 109.22 45.72 0)
+		(property "LCSC#" "C279952"
+			(at 109.22 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7179,8 +7179,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mnfr#" "WPN252010U1R0MT"
-			(at 109.22 45.72 0)
+		(property "manf#" "WPN252010U1R0MT"
+			(at 109.22 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7257,7 +7257,7 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C5280579"
+		(property "LCSC#" "C5280579"
 			(at 229.87 40.64 0)
 			(effects
 				(font
@@ -7266,7 +7266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mnfr#" "OK2EL89CJI-111YLC-32.768K"
+		(property "manf#" "OK2EL89CJI-111YLC-32.768K"
 			(at 229.87 40.64 0)
 			(effects
 				(font
@@ -7350,15 +7350,6 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C2759535"
-			(at 247.904 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field6" ""
 			(at 241.3 107.95 0)
 			(effects
@@ -7413,6 +7404,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC#" "C2759535"
+			(at 241.3 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7484,15 +7484,6 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C2759535"
-			(at 70.866 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field6" ""
 			(at 77.47 161.29 0)
 			(effects
@@ -7547,6 +7538,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC#" "C2759535"
+			(at 77.47 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7749,15 +7749,6 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C2759535"
-			(at 141.986 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field6" ""
 			(at 148.59 153.67 0)
 			(effects
@@ -7812,6 +7803,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC#" "C2759535"
+			(at 148.59 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7996,7 +7996,7 @@
 				)
 			)
 		)
-		(property "Mnfr#" "GRM155R60J226ME11D"
+		(property "LCSC#" "C415703"
 			(at 157.48 35.56 0)
 			(effects
 				(font
@@ -8005,7 +8005,7 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C415703"
+		(property "manf#" "GRM155R60J226ME11D"
 			(at 157.48 35.56 0)
 			(effects
 				(font
@@ -8211,7 +8211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mnfr#" "CONMHF1-SMD-G-T "
+		(property "manf#" "CONMHF1-SMD-G-T "
 			(at 166.37 72.39 0)
 			(effects
 				(font
@@ -8292,7 +8292,7 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C79382"
+		(property "LCSC#" "C79382"
 			(at 104.14 33.02 0)
 			(effects
 				(font
@@ -8435,15 +8435,6 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C2759535"
-			(at 33.274 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field6" ""
 			(at 26.67 55.88 0)
 			(effects
@@ -8498,6 +8489,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC#" "C2759535"
+			(at 26.67 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8820,12 +8820,13 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C5248079"
-			(at 71.628 33.274 0)
+		(property "LCSC#" "C5248079"
+			(at 72.39 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "44"
@@ -9098,15 +9099,6 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C2759535"
-			(at 135.636 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field6" ""
 			(at 142.24 153.67 0)
 			(effects
@@ -9161,6 +9153,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC#" "C2759535"
+			(at 142.24 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9232,8 +9233,8 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C524558"
-			(at 186.69 30.48 0)
+		(property "LCSC#" "C524558"
+			(at 186.69 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9358,7 +9359,7 @@
 				)
 			)
 		)
-		(property "Mnfr#" "GRM155R60J226ME11D"
+		(property "LCSC#" "C415703"
 			(at 163.83 35.56 0)
 			(effects
 				(font
@@ -9367,7 +9368,7 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C415703"
+		(property "manf#" "GRM155R60J226ME11D"
 			(at 163.83 35.56 0)
 			(effects
 				(font
@@ -9445,15 +9446,6 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C96446"
-			(at 254 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field6" ""
 			(at 254 44.45 0)
 			(effects
@@ -9508,6 +9500,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC#" "C96446"
+			(at 254 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9579,15 +9580,6 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C2759535"
-			(at 91.186 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field6" ""
 			(at 97.79 161.29 0)
 			(effects
@@ -9642,6 +9634,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC#" "C2759535"
+			(at 97.79 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9711,12 +9712,13 @@
 				(hide yes)
 			)
 		)
-		(property "Mnfr#" "NDC7002N"
-			(at 189.23 118.364 0)
+		(property "manf#" "NDC7002N"
+			(at 189.23 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "6"
@@ -9866,15 +9868,6 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C2759535"
-			(at 77.216 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field6" ""
 			(at 83.82 161.29 0)
 			(effects
@@ -9929,6 +9922,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC#" "C2759535"
+			(at 83.82 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10194,8 +10196,8 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C242161"
-			(at 140.97 184.15 0)
+		(property "LCSC#" "C242161"
+			(at 140.97 184.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10601,8 +10603,8 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C162274"
-			(at 130.81 42.672 90)
+		(property "LCSC#" "C162274"
+			(at 120.65 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10725,8 +10727,8 @@
 				)
 			)
 		)
-		(property "#LCSC" "C844674"
-			(at 134.62 187.96 0)
+		(property "LCSC#" "C844674"
+			(at 134.62 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10934,8 +10936,8 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C326803"
-			(at 234.442 52.578 0)
+		(property "LCSC#" "C326803"
+			(at 233.68 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11011,8 +11013,8 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C400631"
-			(at 118.11 152.4 0)
+		(property "LCSC#" "C400631"
+			(at 118.11 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11088,15 +11090,6 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C655049"
-			(at 191.77 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field6" ""
 			(at 191.77 36.83 0)
 			(effects
@@ -11151,6 +11144,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC#" "C655049"
+			(at 191.77 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11293,8 +11295,8 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C242161"
-			(at 140.97 179.07 0)
+		(property "LCSC#" "C242161"
+			(at 140.97 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11371,15 +11373,6 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C2759535"
-			(at 84.836 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field6" ""
 			(at 91.44 161.29 0)
 			(effects
@@ -11434,6 +11427,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC#" "C2759535"
+			(at 91.44 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11505,15 +11507,6 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C2759535"
-			(at 173.736 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field6" ""
 			(at 180.34 101.6 0)
 			(effects
@@ -11568,6 +11561,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC#" "C2759535"
+			(at 180.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"

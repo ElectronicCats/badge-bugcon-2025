@@ -16364,16 +16364,6 @@
 		)
 		(uuid "5ede929b-073d-482c-b58d-76175a9b25d0")
 	)
-	(label "USB_DET"
-		(at 119.38 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "69267645-6c3b-44e0-a080-d076e04846d6")
-	)
 	(label "X32KOUT"
 		(at 35.56 114.3 0)
 		(effects
@@ -17132,6 +17122,17 @@
 			(justify right)
 		)
 		(uuid "a9bcc3fb-164e-4951-9cb0-14833aa357e6")
+	)
+	(hierarchical_label "USB_DET"
+		(shape input)
+		(at 119.38 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad814cf4-a0c7-4ae8-807e-9f8d9f28b88b")
 	)
 	(hierarchical_label "DAT3_SDIO"
 		(shape input)

@@ -1142,12 +1142,13 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C338117"
-			(at 122.682 54.102 0)
+		(property "LCSC#" "C338117"
+			(at 127 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -1220,7 +1221,7 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C5446700"
+		(property "LCSC#" "C5446700"
 			(at 82.55 64.77 0)
 			(effects
 				(font
@@ -1503,7 +1504,7 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C5446700"
+		(property "LCSC#" "C5446700"
 			(at 102.87 64.77 0)
 			(effects
 				(font
@@ -1654,7 +1655,7 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C5446700"
+		(property "LCSC#" "C5446700"
 			(at 124.46 64.77 0)
 			(effects
 				(font
@@ -1803,12 +1804,13 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C338117"
-			(at 101.092 54.102 0)
+		(property "LCSC#" "C338117"
+			(at 105.41 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2077,12 +2079,13 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C338117"
-			(at 149.352 54.102 0)
+		(property "LCSC#" "C338117"
+			(at 153.67 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2219,12 +2222,13 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C338117"
-			(at 80.772 54.102 0)
+		(property "LCSC#" "C338117"
+			(at 85.09 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2297,7 +2301,7 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C5446700"
+		(property "LCSC#" "C5446700"
 			(at 151.13 64.77 0)
 			(effects
 				(font
@@ -2447,7 +2451,7 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C23179"
+		(property "LCSC#" "C23179"
 			(at 48.26 64.77 90)
 			(effects
 				(font
@@ -2591,7 +2595,7 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C5446700"
+		(property "LCSC#" "C5446700"
 			(at 60.96 64.77 0)
 			(effects
 				(font
@@ -2675,12 +2679,13 @@
 				(hide yes)
 			)
 		)
-		(property "#LCSC" "C338117"
-			(at 59.182 54.102 0)
+		(property "LCSC#" "C338117"
+			(at 63.5 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
