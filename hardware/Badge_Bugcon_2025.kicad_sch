@@ -149,6 +149,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 88.9) (xy 125.73 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92308a66-6b06-4d66-a862-ea4619870a1a")
+	)
+	(wire
+		(pts
 			(xy 82.55 58.42) (xy 125.73 58.42)
 		)
 		(stroke
@@ -176,6 +186,16 @@
 			(type default)
 		)
 		(uuid "aa465a58-b157-412c-8814-5b3031712777")
+	)
+	(wire
+		(pts
+			(xy 77.47 86.36) (xy 125.73 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba8682b0-36d9-446f-8ef4-b543ea4eec0e")
 	)
 	(wire
 		(pts
@@ -715,7 +735,7 @@
 	)
 	(sheet
 		(at 58.42 83.82)
-		(size 18.796 14.986)
+		(size 19.05 14.986)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -755,6 +775,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "D+" output
+			(at 77.47 86.36 0)
+			(uuid "3bfc4148-9238-47ac-a56d-ddd853164228")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D-" output
+			(at 77.47 88.9 0)
+			(uuid "5bac9f45-b7ec-4188-afa7-0deb01a528a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -1012,6 +1052,26 @@
 		(pin "DIN_IR" output
 			(at 125.73 105.41 180)
 			(uuid "5c00587c-5b81-4cf1-a93c-235150461c2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D+" input
+			(at 125.73 86.36 180)
+			(uuid "34fa7993-44cf-4741-8224-f816fbded9b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D-" input
+			(at 125.73 88.9 180)
+			(uuid "44efa5c7-a60d-4a5b-a6b6-1ed328e5892c")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -16474,16 +16474,6 @@
 		)
 		(uuid "8fa8b69e-37a4-4056-a0ca-a74f48c1c325")
 	)
-	(label "D-"
-		(at 119.38 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "93f17c14-438e-4961-acd3-97b07e5ec255")
-	)
 	(label "DEBUG_TX"
 		(at 269.24 60.96 0)
 		(effects
@@ -16513,16 +16503,6 @@
 			(justify left bottom)
 		)
 		(uuid "a1477ca5-b952-4f85-b746-b413460a41ed")
-	)
-	(label "D+"
-		(at 119.38 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a2dc1790-e49a-43f3-a2b9-05856626c4a1")
 	)
 	(label "X24MOUT"
 		(at 269.24 35.56 0)
@@ -16800,6 +16780,17 @@
 			(justify right)
 		)
 		(uuid "15c78abb-4f2b-43fd-975b-433da03c4549")
+	)
+	(hierarchical_label "D-"
+		(shape input)
+		(at 119.38 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "168eff3b-7739-4d4d-b78f-05a6790d9a69")
 	)
 	(hierarchical_label "MIC-"
 		(shape output)
@@ -17438,6 +17429,17 @@
 			(justify right)
 		)
 		(uuid "fe377782-ea5c-4f03-acdf-bf6dadbea765")
+	)
+	(hierarchical_label "D+"
+		(shape input)
+		(at 119.38 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ffcee0c9-bd54-4de5-9cf8-f82c39062226")
 	)
 	(symbol
 		(lib_id "Device:R_Small")
