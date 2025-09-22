@@ -5575,7 +5575,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C327000"
+		(property "LCSC#" "C107001"
 			(at 177.8 71.12 0)
 			(effects
 				(font
@@ -8677,7 +8677,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C327000"
+		(property "LCSC#" "C107001"
 			(at 175.26 119.38 0)
 			(effects
 				(font
@@ -10051,7 +10051,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C327000"
+		(property "LCSC#" "C107001"
 			(at 233.68 120.65 0)
 			(effects
 				(font
@@ -10431,7 +10431,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C327000"
+		(property "LCSC#" "C107001"
 			(at 236.22 71.12 0)
 			(effects
 				(font

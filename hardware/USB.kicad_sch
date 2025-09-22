@@ -4691,7 +4691,7 @@
 		(uuid "a9e52db6-4d40-46ae-b4ed-192c561c1b1e")
 	)
 	(hierarchical_label "D-"
-		(shape output)
+		(shape bidirectional)
 		(at 142.24 90.17 0)
 		(effects
 			(font
@@ -4713,7 +4713,7 @@
 		(uuid "75e4500b-3617-4c50-9f5d-d7c6a61cf8a8")
 	)
 	(hierarchical_label "D+"
-		(shape output)
+		(shape bidirectional)
 		(at 142.24 87.63 0)
 		(effects
 			(font
