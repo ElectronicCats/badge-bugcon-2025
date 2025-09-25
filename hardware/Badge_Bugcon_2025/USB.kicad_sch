@@ -6364,7 +6364,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "LED"
 			(at 262.89 73.6599 90)
 			(effects
 				(font
@@ -6373,7 +6373,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 260.35 72.39 0)
 			(effects
 				(font
@@ -6446,6 +6446,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 260.35 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C375573"
 			(at 260.35 72.39 90)
 			(effects
 				(font
@@ -6615,6 +6624,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 27.94 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C18077686"
 			(at 27.94 116.84 0)
 			(effects
 				(font
@@ -7401,6 +7419,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 90.17 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C192893"
 			(at 90.17 156.21 0)
 			(effects
 				(font
@@ -8823,7 +8850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 242.2652 82.55 0)
 			(effects
 				(font
@@ -8878,6 +8905,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 241.3 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C162274"
 			(at 241.3 78.74 0)
 			(effects
 				(font
@@ -9557,7 +9593,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 63.8048 162.56 0)
 			(effects
 				(font
@@ -9612,6 +9648,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 64.77 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C96446"
 			(at 64.77 166.37 0)
 			(effects
 				(font
@@ -10992,7 +11037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 58.1152 170.18 0)
 			(effects
 				(font
@@ -11055,6 +11100,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C96446"
+			(at 57.15 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cd10a9a9-f283-43ec-aecc-030d08f36dda")
 		)
@@ -11098,7 +11152,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 159.7152 140.97 0)
 			(effects
 				(font
@@ -11866,7 +11920,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 210.82 62.5348 0)
 			(effects
 				(font
@@ -11921,6 +11975,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 207.01 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C162274"
 			(at 207.01 63.5 90)
 			(effects
 				(font
@@ -12035,7 +12098,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 160.9852 173.99 0)
 			(effects
 				(font
@@ -12386,6 +12449,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 144.78 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C18077686"
 			(at 144.78 137.16 0)
 			(effects
 				(font
@@ -12864,6 +12936,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 144.78 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C18077686"
 			(at 144.78 170.18 0)
 			(effects
 				(font

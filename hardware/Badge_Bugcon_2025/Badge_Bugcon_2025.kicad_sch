@@ -35,6 +35,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 114.3) (xy 125.73 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0803c689-3c39-454c-b2db-feca1d4fb047")
+	)
+	(wire
+		(pts
 			(xy 163.83 81.28) (xy 177.8 81.28)
 		)
 		(stroke
@@ -118,6 +128,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 116.84) (xy 125.73 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "664015e0-321b-4d7c-a42c-ccb940b44998")
+	)
+	(wire
+		(pts
 			(xy 181.61 113.03) (xy 181.61 147.32)
 		)
 		(stroke
@@ -126,6 +146,16 @@
 			(color 255 141 30 1)
 		)
 		(uuid "6bb13374-e441-476b-b04a-6b2e30b456a4")
+	)
+	(wire
+		(pts
+			(xy 88.9 111.76) (xy 125.73 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d8ee4be-d25a-424d-b5bd-2e475f7d36a2")
 	)
 	(wire
 		(pts
@@ -391,6 +421,16 @@
 			(type default)
 		)
 		(uuid "f9960116-f329-4fa5-be48-07d5513a87c7")
+	)
+	(wire
+		(pts
+			(xy 88.9 109.22) (xy 125.73 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fac5372c-67bb-4aa1-b2e0-fc3e9ef8294b")
 	)
 	(wire
 		(pts
@@ -1291,6 +1331,46 @@
 		(pin "SDA" bidirectional
 			(at 125.73 104.14 180)
 			(uuid "b966814c-acfc-4e38-9bbf-a24b0f474411")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOWN" bidirectional
+			(at 125.73 114.3 180)
+			(uuid "f15dcb0c-f312-46c0-b835-2b4485845ab2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LEFT" bidirectional
+			(at 125.73 111.76 180)
+			(uuid "99ae8591-344f-439a-8400-a08962c37671")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RIGHT" bidirectional
+			(at 125.73 109.22 180)
+			(uuid "68031da3-4467-4086-984c-a6091825a503")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UP" bidirectional
+			(at 125.73 116.84 180)
+			(uuid "37fd83d1-1bd4-4d07-a867-bb0ee73ee398")
 			(effects
 				(font
 					(size 1.27 1.27)
