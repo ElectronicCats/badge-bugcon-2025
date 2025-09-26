@@ -1806,7 +1806,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
 			(at 156.21 86.36 0)
 			(effects
 				(font
@@ -1861,6 +1861,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 156.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C318889"
 			(at 156.21 91.44 0)
 			(effects
 				(font
@@ -2109,7 +2118,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
 			(at 157.48 45.72 0)
 			(effects
 				(font
@@ -2164,6 +2173,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 157.48 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C318889"
 			(at 157.48 50.8 0)
 			(effects
 				(font
@@ -2349,7 +2367,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:Display OLED 128 x32"
+		(property "Footprint" "Footprints:Display OLED 128 x32"
 			(at 53.34 41.91 0)
 			(effects
 				(font
@@ -2617,7 +2635,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
 			(at 157.48 25.4 0)
 			(effects
 				(font
@@ -2672,6 +2690,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 157.48 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C318889"
 			(at 157.48 30.48 0)
 			(effects
 				(font
@@ -3244,7 +3271,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
 			(at 157.48 67.31 0)
 			(effects
 				(font
@@ -3299,6 +3326,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 157.48 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C318889"
 			(at 157.48 72.39 0)
 			(effects
 				(font

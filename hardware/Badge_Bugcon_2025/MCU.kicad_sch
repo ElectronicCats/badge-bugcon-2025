@@ -24041,6 +24041,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C106231"
+			(at 95.25 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "22c67f4f-169f-4fb8-8a06-e779079f535c")
 		)

@@ -9356,7 +9356,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "pondo_2:XCVR_AP6255"
+		(property "Footprint" "Footprints:XCVR_AP6255"
 			(at 72.39 73.66 0)
 			(effects
 				(font

@@ -3428,7 +3428,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPDT"
+		(symbol "Switch:SW_DPDT_x2"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -3436,23 +3436,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
+			(property "Reference" "SW2"
+				(at -1.778 -3.429 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SW_SPDT"
-				(at 0 -5.08 0)
+			(property "Value" "On"
+				(at 0 4.9276 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Footprints:MSK12C02"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3462,15 +3462,6 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3479,7 +3470,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+			(property "Description" "Switch, dual pole double throw, separate symbols"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3488,10 +3479,46 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_SPDT_0_1"
+			(property "manf#" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC#" "C431540"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch dual-pole double-throw DPDT spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW*DPDT*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_DPDT_x2_0_0"
 				(circle
 					(center -2.032 0)
-					(radius 0.4572)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -3500,9 +3527,33 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -6.35)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DPDT_x2_0_1"
 				(polyline
 					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
+						(xy -1.524 0.254) (xy 1.651 2.286)
 					)
 					(stroke
 						(width 0)
@@ -3514,18 +3565,7 @@
 				)
 				(circle
 					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -3535,18 +3575,7 @@
 					)
 				)
 			)
-			(symbol "SW_SPDT_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
+			(symbol "SW_DPDT_x2_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -3594,6 +3623,80 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -6.35 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_DPDT_x2_2_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4280,6 +4383,12 @@
 		(uuid "676145ae-1a2b-43a4-8681-3bb37dcbc214")
 	)
 	(junction
+		(at 165.1 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a5a401e-784f-45be-b108-18ed4d9a533f")
+	)
+	(junction
 		(at 146.05 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4625,6 +4734,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 45.72) (xy 165.1 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e321c98-3341-4610-9bdf-06a7027e7743")
+	)
+	(wire
+		(pts
 			(xy 215.9 83.82) (xy 215.9 85.09)
 		)
 		(stroke
@@ -4692,6 +4811,16 @@
 			(type default)
 		)
 		(uuid "36e06ad0-7953-4ca8-878d-c2b3d859e2de")
+	)
+	(wire
+		(pts
+			(xy 165.1 45.72) (xy 165.1 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3731e9be-2943-4b6f-a1fe-3aa5d7b5cdb1")
 	)
 	(wire
 		(pts
@@ -5485,7 +5614,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 45.72) (xy 162.56 45.72)
+			(xy 165.1 49.53) (xy 162.56 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5545,7 +5674,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 46.99) (xy 165.1 45.72)
+			(xy 165.1 52.07) (xy 165.1 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6029,7 +6158,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 46.99 0)
+		(at 165.1 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6037,7 +6166,7 @@
 		(dnp no)
 		(uuid "01e600df-441b-4f9f-a03d-0254d3a4c5ce")
 		(property "Reference" "#PWR086"
-			(at 165.1 53.34 0)
+			(at 165.1 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6046,7 +6175,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.227 51.3842 0)
+			(at 165.227 56.4642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6054,7 +6183,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 46.99 0)
+			(at 165.1 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6063,7 +6192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 46.99 0)
+			(at 165.1 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6072,7 +6201,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 46.99 0)
+			(at 165.1 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6569,7 +6698,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_A_Connfly_DS1095"
 			(at 31.75 118.11 0)
 			(effects
 				(font
@@ -7364,7 +7493,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOP-16_3.9x9.9mm_P1.27mm"
 			(at 90.17 156.21 0)
 			(effects
 				(font
@@ -7848,7 +7977,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:UQFN-10_1.3x1.8mm_P0.4mm"
 			(at 90.17 49.53 0)
 			(effects
 				(font
@@ -8495,7 +8624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 258.572 81.28 90)
 			(effects
 				(font
@@ -8550,6 +8679,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 260.35 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C23179"
 			(at 260.35 81.28 0)
 			(effects
 				(font
@@ -9118,6 +9256,106 @@
 			(project "Badge_Bugcon_2025"
 				(path "/a95785a0-0aa1-454e-b59f-0ac64970ac71/a5c26cac-72fa-4752-a660-9cd751934916"
 					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 157.48 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6962395b-b770-4740-a370-2fee2e09be8a")
+		(property "Reference" "SW4"
+			(at 155.702 46.609 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "On"
+			(at 157.48 38.2524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:MSK12C02"
+			(at 157.48 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C431540"
+			(at 157.48 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 157.48 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ebe1b87-6866-4bb5-904a-855481371086")
+		)
+		(pin "2"
+			(uuid "7fd22d8d-0e6e-46ed-8499-acfe8e584822")
+		)
+		(pin "3"
+			(uuid "4b57e0ae-4641-4f89-9db3-24d438e3c5c0")
+		)
+		(pin "4"
+			(uuid "5b89fda2-5a51-4114-94d0-2154117068e4")
+		)
+		(pin "5"
+			(uuid "6d74a65b-6c8a-41ae-a4c8-8a951b53408f")
+		)
+		(pin "6"
+			(uuid "957dc641-8872-456e-b86e-e8ccbff5264a")
+		)
+		(pin "4"
+			(uuid "1defb725-aa38-4587-a6e9-a964c2f79ab5")
+		)
+		(instances
+			(project "Badge_Bugcon_2025"
+				(path "/a95785a0-0aa1-454e-b59f-0ac64970ac71/a5c26cac-72fa-4752-a660-9cd751934916"
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -10199,113 +10437,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 157.48 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98ba56b7-ad7a-4dae-a215-3bb4ab877cba")
-		(property "Reference" "SW4"
-			(at 157.48 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SWITCH"
-			(at 157.48 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 157.48 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 157.48 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 157.48 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 157.48 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 157.48 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "5d6052cb-50c0-425f-8629-7b03c33220a4")
-		)
-		(pin "1"
-			(uuid "b1cc5099-ce1a-4902-a90f-32b7d1c811d1")
-		)
-		(pin "2"
-			(uuid "6e84cd9c-e1c1-4d5a-a638-0be308a9f359")
-		)
-		(instances
-			(project ""
-				(path "/a95785a0-0aa1-454e-b59f-0ac64970ac71/a5c26cac-72fa-4752-a660-9cd751934916"
-					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 243.84 139.7 0)
 		(unit 1)
@@ -11152,7 +11283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 159.7152 140.97 0)
 			(effects
 				(font
@@ -11207,6 +11338,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 158.75 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C141660"
 			(at 158.75 137.16 0)
 			(effects
 				(font
@@ -12098,7 +12238,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 160.9852 173.99 0)
 			(effects
 				(font
@@ -12153,6 +12293,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 160.02 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C141660"
 			(at 160.02 170.18 0)
 			(effects
 				(font
@@ -12394,7 +12543,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_A_Connfly_DS1095"
 			(at 140.97 138.43 0)
 			(effects
 				(font
@@ -12713,7 +12862,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 197.612 83.82 90)
 			(effects
 				(font
@@ -12768,6 +12917,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 199.39 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C2907022"
 			(at 199.39 83.82 0)
 			(effects
 				(font
@@ -12881,7 +13039,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_A_Connfly_DS1095"
 			(at 140.97 171.45 0)
 			(effects
 				(font
@@ -13626,7 +13784,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 83.82 184.15 0)
 			(effects
 				(font
@@ -13653,7 +13811,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C620155"
+		(property "LCSC#" "C133334"
 			(at 83.82 184.15 0)
 			(effects
 				(font
