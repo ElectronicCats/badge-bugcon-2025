@@ -14788,6 +14788,12 @@
 		(uuid "ed0f6bb2-9084-4bf4-9b3a-dfd4339db71d")
 	)
 	(junction
+		(at 261.62 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f249bd33-12a1-47fd-a568-b762503bb352")
+	)
+	(junction
 		(at 40.64 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15817,7 +15823,17 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 132.08) (xy 261.62 130.81)
+			(xy 257.81 133.35) (xy 261.62 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "443add60-6d88-4842-954b-fb4edb9f9bdf")
+	)
+	(wire
+		(pts
+			(xy 252.73 133.35) (xy 252.73 130.81)
 		)
 		(stroke
 			(width 0)
@@ -16107,7 +16123,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 139.7) (xy 261.62 137.16)
+			(xy 252.73 139.7) (xy 252.73 138.43)
 		)
 		(stroke
 			(width 0)
@@ -16647,6 +16663,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 133.35) (xy 289.56 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dd26151-e366-4752-9108-c215e96b805c")
+	)
+	(wire
+		(pts
 			(xy 78.74 81.28) (xy 85.09 81.28)
 		)
 		(stroke
@@ -16814,6 +16840,16 @@
 			(type default)
 		)
 		(uuid "89e48878-19e3-4662-b787-38f53e07e1e7")
+	)
+	(wire
+		(pts
+			(xy 261.62 133.35) (xy 261.62 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b7261f3-93dc-4e5d-afd1-6eee4427ca35")
 	)
 	(wire
 		(pts
@@ -17464,6 +17500,16 @@
 			(type default)
 		)
 		(uuid "bc799cd2-e1b4-4424-8282-22b3407effb5")
+	)
+	(wire
+		(pts
+			(xy 261.62 143.51) (xy 261.62 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd2c6785-bfc2-47bd-8538-4e2eee29090f")
 	)
 	(wire
 		(pts
@@ -18277,7 +18323,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 130.81) (xy 289.56 130.81)
+			(xy 252.73 130.81) (xy 289.56 130.81)
 		)
 		(stroke
 			(width 0)
@@ -18786,12 +18832,12 @@
 		(uuid "395a2a49-bee7-4365-a53f-49ac80b00f2a")
 	)
 	(label "ETH_EXTR"
-		(at 289.56 133.35 180)
+		(at 257.81 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "3a586a46-cff4-4b7c-bea9-3fb53204a17f")
 	)
@@ -19326,7 +19372,7 @@
 		(uuid "9a8623ab-cf65-4f3a-8641-5fbf441f818e")
 	)
 	(label "ETH_AVDD3V3"
-		(at 275.59 130.81 180)
+		(at 265.43 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20827,7 +20873,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x28_P2.54mm_Vertical"
 			(at 106.68 241.3 0)
 			(effects
 				(font
@@ -21698,7 +21744,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 157.48 259.08 0)
 			(effects
 				(font
@@ -21707,7 +21753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 157.48 259.08 0)
 			(effects
 				(font
@@ -21781,7 +21827,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C96446"
+		(property "LCSC#" "C7472949"
 			(at 157.48 259.08 90)
 			(effects
 				(font
@@ -22778,7 +22824,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 261.62 139.7 0)
+		(at 252.73 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22787,7 +22833,7 @@
 		(fields_autoplaced yes)
 		(uuid "2eb62fb2-3e0f-43e6-8545-06a1b6ce3866")
 		(property "Reference" "#PWR04"
-			(at 261.62 146.05 0)
+			(at 252.73 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22796,7 +22842,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 261.62 144.78 0)
+			(at 252.73 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22804,7 +22850,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 139.7 0)
+			(at 252.73 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22813,7 +22859,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 139.7 0)
+			(at 252.73 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22822,7 +22868,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 139.7 0)
+			(at 252.73 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23105,7 +23151,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 62.23 224.79 0)
 			(effects
 				(font
@@ -23184,7 +23230,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x20"
+		(property "Value" "+1V8"
 			(at 21.59 214.63 0)
 			(effects
 				(font
@@ -23192,7 +23238,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical"
 			(at 21.59 241.3 0)
 			(effects
 				(font
@@ -23517,7 +23563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 74.93 140.97 0)
 			(effects
 				(font
@@ -23526,7 +23572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 74.93 140.97 0)
 			(effects
 				(font
@@ -23600,7 +23646,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C96446"
+		(property "LCSC#" "C7472949"
 			(at 74.93 140.97 90)
 			(effects
 				(font
@@ -24067,7 +24113,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 261.62 134.62 180)
+		(at 252.73 135.89 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24075,7 +24121,7 @@
 		(dnp no)
 		(uuid "50a8495c-5cba-4422-a623-569fde0d8960")
 		(property "Reference" "R29"
-			(at 259.842 132.842 90)
+			(at 250.952 134.112 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24084,7 +24130,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 263.652 132.842 90)
+			(at 254.762 134.112 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24093,7 +24139,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 261.62 134.62 0)
+			(at 252.73 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24102,7 +24148,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 134.62 0)
+			(at 252.73 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24111,7 +24157,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 261.62 134.62 0)
+			(at 252.73 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24120,7 +24166,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 261.62 134.62 0)
+			(at 252.73 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24128,7 +24174,7 @@
 			)
 		)
 		(property "COPYRIGHT" ""
-			(at 261.62 134.62 0)
+			(at 252.73 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24136,7 +24182,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 261.62 134.62 0)
+			(at 252.73 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24144,7 +24190,7 @@
 			)
 		)
 		(property "MFR_NAME" ""
-			(at 261.62 134.62 0)
+			(at 252.73 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24152,7 +24198,7 @@
 			)
 		)
 		(property "REFDES" ""
-			(at 261.62 134.62 0)
+			(at 252.73 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24160,7 +24206,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 261.62 134.62 0)
+			(at 252.73 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24168,7 +24214,7 @@
 			)
 		)
 		(property "TYPE" ""
-			(at 261.62 134.62 0)
+			(at 252.73 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24176,7 +24222,7 @@
 			)
 		)
 		(property "LCSC#" "C2759535"
-			(at 261.62 134.62 90)
+			(at 252.73 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24185,7 +24231,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 261.62 134.62 90)
+			(at 252.73 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24194,7 +24240,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 261.62 134.62 90)
+			(at 252.73 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24203,7 +24249,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 261.62 134.62 90)
+			(at 252.73 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24212,7 +24258,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 261.62 134.62 90)
+			(at 252.73 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24751,7 +24797,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 83.82 106.68 0)
 			(effects
 				(font
@@ -24778,7 +24824,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "SG73P1JTTD22R0F"
+		(property "manf#" ""
 			(at 83.82 106.68 90)
 			(effects
 				(font
@@ -24815,6 +24861,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 83.82 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C159964"
 			(at 83.82 106.68 90)
 			(effects
 				(font
@@ -25965,7 +26020,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 40.64 142.24 0)
 			(effects
 				(font
@@ -25974,7 +26029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 40.64 142.24 0)
 			(effects
 				(font
@@ -26048,7 +26103,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C96446"
+		(property "LCSC#" "C7472949"
 			(at 40.64 142.24 90)
 			(effects
 				(font
@@ -26494,7 +26549,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 146.05 66.04 0)
 			(effects
 				(font
@@ -26521,7 +26576,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C253328"
+		(property "LCSC#" "C2906860"
 			(at 146.05 66.04 90)
 			(effects
 				(font
@@ -26608,7 +26663,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 30.48 50.8 0)
 			(effects
 				(font
@@ -26617,7 +26672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 30.48 50.8 0)
 			(effects
 				(font
@@ -26691,7 +26746,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C96446"
+		(property "LCSC#" "C7472949"
 			(at 30.48 50.8 90)
 			(effects
 				(font
@@ -27462,7 +27517,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 45.72 171.45 0)
 			(effects
 				(font
@@ -27489,7 +27544,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C253328"
+		(property "LCSC#" "C2906860"
 			(at 45.72 171.45 90)
 			(effects
 				(font
@@ -28987,6 +29042,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 261.62 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "991f0caa-fc68-4e5f-adef-d599e33b5228")
+		(property "Reference" "#PWR0170"
+			(at 261.62 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 261.62 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84ac91f2-8bd8-46ef-9b02-acf5c46b567e")
+		)
+		(instances
+			(project "Badge_Bugcon_2025"
+				(path "/a95785a0-0aa1-454e-b59f-0ac64970ac71/b4a4bbe3-3d97-4ef8-9067-81f34711c2c0"
+					(reference "#PWR0170")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 38.1 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29313,7 +29434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 66.04 53.34 0)
 			(effects
 				(font
@@ -29322,7 +29443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 66.04 53.34 0)
 			(effects
 				(font
@@ -29396,7 +29517,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C96446"
+		(property "LCSC#" "C7472949"
 			(at 66.04 53.34 90)
 			(effects
 				(font
@@ -30423,7 +30544,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 132.08 100.33 0)
 			(effects
 				(font
@@ -30450,7 +30571,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C162274"
+		(property "LCSC#" "C6119795"
 			(at 132.08 100.33 0)
 			(effects
 				(font
@@ -30667,7 +30788,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 91.44 22.86 0)
 			(effects
 				(font
@@ -30694,7 +30815,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C253328"
+		(property "LCSC#" "C2906860"
 			(at 91.44 22.86 90)
 			(effects
 				(font
@@ -30895,7 +31016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 27.94 77.47 0)
 			(effects
 				(font
@@ -30904,7 +31025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 27.94 77.47 0)
 			(effects
 				(font
@@ -30978,7 +31099,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C96446"
+		(property "LCSC#" "C7472949"
 			(at 27.94 77.47 90)
 			(effects
 				(font
@@ -31333,6 +31454,75 @@
 			(project "Badge_Bugcon_2025"
 				(path "/a95785a0-0aa1-454e-b59f-0ac64970ac71/b4a4bbe3-3d97-4ef8-9067-81f34711c2c0"
 					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 261.62 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c55c8ac0-db7d-409c-b7b8-2ac4e7108422")
+		(property "Reference" "R34"
+			(at 263.144 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6K"
+			(at 263.144 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.842 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 261.62 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "efb5cb0c-ae6a-4a13-8147-9760704eb232")
+		)
+		(pin "1"
+			(uuid "c6f66eb7-6495-4590-a1ac-61b6f260e3aa")
+		)
+		(instances
+			(project ""
+				(path "/a95785a0-0aa1-454e-b59f-0ac64970ac71/b4a4bbe3-3d97-4ef8-9067-81f34711c2c0"
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -31834,7 +32024,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
 			(at 63.5 264.16 0)
 			(effects
 				(font
@@ -32153,7 +32343,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 163.83 157.48 0)
 			(effects
 				(font
@@ -32180,7 +32370,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "SG73P1JTTD22R0F"
+		(property "manf#" ""
 			(at 163.83 157.48 90)
 			(effects
 				(font
@@ -32217,6 +32407,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 163.83 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C159964"
 			(at 163.83 157.48 90)
 			(effects
 				(font
@@ -32267,7 +32466,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 60.96 76.2 0)
 			(effects
 				(font
@@ -32276,7 +32475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 60.96 76.2 0)
 			(effects
 				(font
@@ -32350,7 +32549,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C96446"
+		(property "LCSC#" "C7472949"
 			(at 60.96 76.2 90)
 			(effects
 				(font
@@ -33487,7 +33686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 20.32 27.94 0)
 			(effects
 				(font
@@ -33496,7 +33695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 20.32 27.94 0)
 			(effects
 				(font
@@ -33570,7 +33769,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C96446"
+		(property "LCSC#" "C7472949"
 			(at 20.32 27.94 90)
 			(effects
 				(font
