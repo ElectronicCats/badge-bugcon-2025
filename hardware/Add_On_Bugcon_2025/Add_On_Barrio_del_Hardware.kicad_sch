@@ -2507,6 +2507,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 88.9) (xy 148.59 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fe14cc1-19fe-4199-80e7-9ee92706f4a9")
+	)
+	(wire
+		(pts
 			(xy 175.26 38.1) (xy 175.26 35.56)
 		)
 		(stroke
@@ -2554,6 +2564,16 @@
 			(type default)
 		)
 		(uuid "3dcb4d7d-a52a-40a3-8334-11b9bee1c737")
+	)
+	(wire
+		(pts
+			(xy 129.54 88.9) (xy 132.08 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43928e40-abf0-41e8-bb9b-e22f8b772077")
 	)
 	(polyline
 		(pts
@@ -2694,6 +2714,16 @@
 			(type default)
 		)
 		(uuid "7b0d61bd-c143-4755-a30c-e9846957f409")
+	)
+	(wire
+		(pts
+			(xy 137.16 88.9) (xy 139.7 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c1a747e-c956-4118-897a-8e6ca4d0b7ec")
 	)
 	(wire
 		(pts
@@ -3245,6 +3275,16 @@
 		)
 		(uuid "43d1752f-9a04-44c7-9cf1-ef53f5ce6626")
 	)
+	(label "PA7"
+		(at 129.54 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c042993-102b-429e-ae71-e0f4a6cc2a2c")
+	)
 	(label "PA1"
 		(at 27.94 44.45 0)
 		(effects
@@ -3732,7 +3772,7 @@
 				)
 			)
 		)
-		(property "Value" "Pink"
+		(property "Value" "Green"
 			(at 191.389 32.9565 0)
 			(effects
 				(font
@@ -3767,7 +3807,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C7496826"
+		(property "LCSC#" "C916074"
 			(at 195.58 33.02 0)
 			(effects
 				(font
@@ -3947,6 +3987,91 @@
 			(project "Add_On_Barrio_del_Hardware"
 				(path "/b945d0b1-d936-48b8-90c0-2c13dcc6c706"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 134.62 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "513fedf2-6fcc-48eb-9f4d-580dcaca1141")
+		(property "Reference" "D1"
+			(at 134.366 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "White"
+			(at 136.144 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 134.62 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C2290"
+			(at 134.62 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 134.62 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0913ce64-cde6-4b0d-9f0d-bcefd98f411d")
+		)
+		(pin "2"
+			(uuid "f0e0402b-57b5-4282-a9e8-a4c2601a25f7")
+		)
+		(instances
+			(project "Add_On_Barrio_del_Hardware"
+				(path "/b945d0b1-d936-48b8-90c0-2c13dcc6c706"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5556,6 +5681,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 148.59 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b53c77e5-f3b4-4945-93f2-4d5aa9d2035e")
+		(property "Reference" "#PWR03"
+			(at 148.59 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e89b7790-2424-4b95-95ac-815f1fc03901")
+		)
+		(instances
+			(project "Add_On_Barrio_del_Hardware"
+				(path "/b945d0b1-d936-48b8-90c0-2c13dcc6c706"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:2N7002")
 		(at 143.51 53.34 0)
 		(unit 1)
@@ -6026,7 +6217,7 @@
 				)
 			)
 		)
-		(property "Value" "Pink"
+		(property "Value" "Red"
 			(at 156.972 33.274 0)
 			(effects
 				(font
@@ -6061,7 +6252,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C7496826"
+		(property "LCSC#" "C2286"
 			(at 154.94 33.02 0)
 			(effects
 				(font
@@ -6089,6 +6280,92 @@
 			(project "Add_On_Barrio_del_Hardware"
 				(path "/b945d0b1-d936-48b8-90c0-2c13dcc6c706"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 142.24 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebb4e978-e738-4cc9-8ece-bc91fec72184")
+		(property "Reference" "R1"
+			(at 142.24 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330R"
+			(at 142.24 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 142.24 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C105881"
+			(at 142.24 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 142.24 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c09de4c-2951-4d39-882b-4bd904a0f954")
+		)
+		(pin "2"
+			(uuid "24d6fff2-916d-4998-ac5f-c00b21f5ad9f")
+		)
+		(instances
+			(project "Add_On_Barrio_del_Hardware"
+				(path "/b945d0b1-d936-48b8-90c0-2c13dcc6c706"
+					(reference "R1")
 					(unit 1)
 				)
 			)
