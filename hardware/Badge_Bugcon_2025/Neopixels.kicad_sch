@@ -858,7 +858,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 53.34) (xy 151.13 54.61)
+			(xy 151.13 50.8) (xy 151.13 54.61)
 		)
 		(stroke
 			(width 0)
@@ -898,7 +898,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 53.34) (xy 82.55 54.61)
+			(xy 82.55 50.8) (xy 82.55 54.61)
 		)
 		(stroke
 			(width 0)
@@ -908,7 +908,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 53.34) (xy 60.96 54.61)
+			(xy 60.96 50.8) (xy 60.96 54.61)
 		)
 		(stroke
 			(width 0)
@@ -948,7 +948,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 53.34) (xy 102.87 54.61)
+			(xy 102.87 50.8) (xy 102.87 54.61)
 		)
 		(stroke
 			(width 0)
@@ -968,7 +968,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 53.34) (xy 124.46 54.61)
+			(xy 124.46 50.8) (xy 124.46 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1098,7 +1098,7 @@
 		(dnp no)
 		(uuid "0aa08401-9a39-42d1-bc0b-94665350860d")
 		(property "Reference" "C46"
-			(at 125.7362 52.07 0)
+			(at 127 52.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1187,6 +1187,114 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 127 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 127 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 127 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 127 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 127 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 127 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 127 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 127 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 127 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 127 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 127 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 127 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d2689587-e630-457b-9518-3ed6ec9cb079")
 		)
@@ -1210,10 +1318,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1c175795-3e4c-4918-9444-bd84993c77db")
 		(property "Reference" "D8"
-			(at 93.98 58.3498 0)
+			(at 75.692 61.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1221,7 +1328,7 @@
 			)
 		)
 		(property "Value" "WS2812E-1313"
-			(at 93.98 60.8898 0)
+			(at 90.678 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1294,6 +1401,114 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 82.55 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 82.55 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 82.55 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 82.55 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 82.55 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 82.55 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 82.55 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 82.55 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 82.55 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 82.55 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 82.55 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 82.55 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
 			(at 82.55 64.77 0)
 			(effects
 				(font
@@ -1391,7 +1606,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 124.46 53.34 0)
+		(at 124.46 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1400,7 +1615,7 @@
 		(fields_autoplaced yes)
 		(uuid "22e2f326-f7d5-4ba6-96cf-49f8d82f78f9")
 		(property "Reference" "#PWR031"
-			(at 124.46 57.15 0)
+			(at 124.46 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1409,7 +1624,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 124.46 48.26 0)
+			(at 124.46 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1417,7 +1632,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 53.34 0)
+			(at 124.46 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1426,7 +1641,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 53.34 0)
+			(at 124.46 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1435,7 +1650,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 124.46 53.34 0)
+			(at 124.46 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1457,7 +1672,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 151.13 53.34 0)
+		(at 151.13 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1466,7 +1681,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a686a4d-1420-4cf9-bc84-f1c005d7e95e")
 		(property "Reference" "#PWR034"
-			(at 151.13 57.15 0)
+			(at 151.13 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1475,7 +1690,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 151.13 48.26 0)
+			(at 151.13 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1483,7 +1698,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 53.34 0)
+			(at 151.13 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1492,7 +1707,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 53.34 0)
+			(at 151.13 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1501,7 +1716,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 151.13 53.34 0)
+			(at 151.13 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1529,10 +1744,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2dd5124b-d410-43bd-bdfc-09141a0b3de2")
 		(property "Reference" "D9"
-			(at 114.3 58.3498 0)
+			(at 96.012 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1540,7 +1754,7 @@
 			)
 		)
 		(property "Value" "WS2812E-1313"
-			(at 114.3 60.8898 0)
+			(at 111.252 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1613,6 +1827,114 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 102.87 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 102.87 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 102.87 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 102.87 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 102.87 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 102.87 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 102.87 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 102.87 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 102.87 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 102.87 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 102.87 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 102.87 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
 			(at 102.87 64.77 0)
 			(effects
 				(font
@@ -1716,10 +2038,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "512145ff-c1c6-4cd1-a4b7-5e2841075fc3")
 		(property "Reference" "D10"
-			(at 135.89 58.3498 0)
+			(at 117.094 61.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1727,7 +2048,7 @@
 			)
 		)
 		(property "Value" "WS2812E-1313"
-			(at 135.89 60.8898 0)
+			(at 132.842 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1800,6 +2121,114 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 124.46 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 124.46 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 124.46 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 124.46 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 124.46 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 124.46 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 124.46 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 124.46 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 124.46 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 124.46 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 124.46 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 124.46 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
 			(at 124.46 64.77 0)
 			(effects
 				(font
@@ -1904,7 +2333,7 @@
 		(dnp no)
 		(uuid "53199a63-5f58-4176-a5fb-bb5225d771ca")
 		(property "Reference" "C43"
-			(at 104.1462 52.07 0)
+			(at 105.41 52.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1985,6 +2414,114 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 105.41 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 105.41 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 105.41 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 105.41 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 105.41 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 105.41 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 105.41 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 105.41 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 105.41 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 105.41 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 105.41 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 105.41 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
 			(at 105.41 54.61 0)
 			(effects
 				(font
@@ -2141,7 +2678,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 60.96 53.34 0)
+		(at 60.96 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2150,7 +2687,7 @@
 		(fields_autoplaced yes)
 		(uuid "67a55e42-e925-4f17-97ba-ea3c9d8a6efb")
 		(property "Reference" "#PWR0117"
-			(at 60.96 57.15 0)
+			(at 60.96 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2159,7 +2696,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 60.96 48.26 0)
+			(at 60.96 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2167,7 +2704,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 53.34 0)
+			(at 60.96 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2176,7 +2713,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 53.34 0)
+			(at 60.96 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2185,7 +2722,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 60.96 53.34 0)
+			(at 60.96 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2215,7 +2752,7 @@
 		(dnp no)
 		(uuid "a0b79710-8b7e-4862-b853-d8405f2c255d")
 		(property "Reference" "C47"
-			(at 152.4062 52.07 0)
+			(at 153.67 52.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2296,6 +2833,114 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 153.67 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 153.67 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 153.67 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 153.67 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 153.67 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 153.67 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 153.67 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 153.67 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 153.67 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 153.67 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 153.67 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 153.67 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
 			(at 153.67 54.61 0)
 			(effects
 				(font
@@ -2394,7 +3039,7 @@
 		(dnp no)
 		(uuid "a57ed38f-2ced-4bb7-9de9-fd66110c19ab")
 		(property "Reference" "C21"
-			(at 83.8262 52.07 0)
+			(at 85.09 52.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2483,6 +3128,114 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 85.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 85.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 85.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 85.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 85.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 85.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 85.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 85.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 85.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 85.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 85.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 85.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5b9c3cc4-b175-4e15-a140-76d599a8aa94")
 		)
@@ -2506,10 +3259,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a77407bb-f0d6-42d9-9281-57206ef961d7")
 		(property "Reference" "D11"
-			(at 162.56 58.3498 0)
+			(at 143.764 61.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,7 +3269,7 @@
 			)
 		)
 		(property "Value" "WS2812E-1313"
-			(at 162.56 60.8898 0)
+			(at 159.258 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2598,6 +3350,114 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 151.13 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 151.13 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 151.13 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 151.13 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 151.13 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 151.13 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 151.13 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 151.13 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 151.13 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 151.13 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 151.13 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 151.13 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "72a0c8e7-055c-4973-bd31-3d60c92cd463")
 		)
@@ -2621,7 +3481,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 102.87 53.34 0)
+		(at 102.87 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2630,7 +3490,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad5716f1-b209-4f6c-85dc-23a4b65eca31")
 		(property "Reference" "#PWR025"
-			(at 102.87 57.15 0)
+			(at 102.87 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2639,7 +3499,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 102.87 48.26 0)
+			(at 102.87 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2647,7 +3507,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 53.34 0)
+			(at 102.87 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2656,7 +3516,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 53.34 0)
+			(at 102.87 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2665,7 +3525,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 102.87 53.34 0)
+			(at 102.87 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2784,6 +3644,114 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 48.26 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 48.26 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 48.26 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 48.26 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 48.26 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 48.26 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 48.26 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 48.26 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 48.26 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 48.26 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 48.26 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 48.26 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18d88797-d215-4f5b-b4d6-58cce3d4be81")
 		)
@@ -2872,10 +3840,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c15a36d1-8df3-4ab8-a42f-7b9727d57120")
 		(property "Reference" "D7"
-			(at 72.39 58.3498 0)
+			(at 54.102 61.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,7 +3850,7 @@
 			)
 		)
 		(property "Value" "WS2812E-1313"
-			(at 72.39 60.8898 0)
+			(at 69.342 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2964,6 +3931,114 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 60.96 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 60.96 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 60.96 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 60.96 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 60.96 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 60.96 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 60.96 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 60.96 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 60.96 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 60.96 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 60.96 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 60.96 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4aeea87e-7206-4028-926d-8c2b4487dede")
 		)
@@ -2995,7 +4070,7 @@
 		(dnp no)
 		(uuid "ce89c192-35be-4fc4-abe4-dc48352a4055")
 		(property "Reference" "C2"
-			(at 62.2362 52.07 0)
+			(at 63.5 52.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3076,6 +4151,114 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 63.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 63.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 63.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 63.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 63.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 63.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 63.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 63.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 63.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 63.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 63.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 63.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
 			(at 63.5 54.61 0)
 			(effects
 				(font
@@ -3167,7 +4350,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 82.55 53.34 0)
+		(at 82.55 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3176,7 +4359,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6db25ad-f41f-467a-adde-13c6e1eb9649")
 		(property "Reference" "#PWR07"
-			(at 82.55 57.15 0)
+			(at 82.55 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,7 +4368,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 82.55 48.26 0)
+			(at 82.55 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3193,7 +4376,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 53.34 0)
+			(at 82.55 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3202,7 +4385,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 53.34 0)
+			(at 82.55 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3211,7 +4394,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 82.55 53.34 0)
+			(at 82.55 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
