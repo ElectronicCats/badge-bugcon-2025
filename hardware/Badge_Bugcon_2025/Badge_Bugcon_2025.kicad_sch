@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(junction
-		(at 185.42 116.078)
+		(at 179.07 104.14)
 		(diameter 0)
 		(color 255 23 32 1)
 		(uuid "5eb86b5d-1667-4e44-b5b4-69c64bfd2a7f")
@@ -30,7 +30,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 83.058) (xy 129.54 116.078)
+			(xy 129.54 83.058) (xy 129.54 104.14)
 		)
 		(stroke
 			(width 0)
@@ -41,7 +41,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 77.47) (xy 193.04 77.47)
+			(xy 172.72 72.39) (xy 186.69 72.39)
 		)
 		(stroke
 			(width 0)
@@ -72,17 +72,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 82.55) (xy 193.04 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74caf64c-098c-4c84-b35a-06f234c835fc")
-	)
-	(wire
-		(pts
-			(xy 185.42 91.44) (xy 185.42 116.078)
+			(xy 179.07 78.74) (xy 179.07 104.14)
 		)
 		(stroke
 			(width 0)
@@ -93,7 +83,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 91.44) (xy 193.04 91.44)
+			(xy 179.07 78.74) (xy 186.69 78.74)
 		)
 		(stroke
 			(width 0)
@@ -114,7 +104,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 107.188) (xy 193.04 107.188)
+			(xy 172.72 93.98) (xy 186.69 93.98)
 		)
 		(stroke
 			(width 0)
@@ -155,36 +145,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 80.01) (xy 193.04 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "add0fe1c-84d1-4717-83a0-3bde18d7f53e")
-	)
-	(wire
-		(pts
-			(xy 179.07 85.09) (xy 193.04 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b58f4d3b-d8a9-4520-86d0-67602e5b28dc")
-	)
-	(wire
-		(pts
-			(xy 179.07 87.63) (xy 193.04 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9bfd981-311a-47d6-99fc-33e481a5a9ed")
-	)
-	(wire
-		(pts
 			(xy 80.01 89.408) (xy 140.97 89.408)
 		)
 		(stroke
@@ -195,7 +155,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 116.078) (xy 193.04 116.078)
+			(xy 179.07 104.14) (xy 186.69 104.14)
 		)
 		(stroke
 			(width 0)
@@ -216,7 +176,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 74.93) (xy 193.04 74.93)
+			(xy 172.72 69.85) (xy 186.69 69.85)
 		)
 		(stroke
 			(width 0)
@@ -226,7 +186,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 116.078) (xy 185.42 116.078)
+			(xy 129.54 104.14) (xy 179.07 104.14)
 		)
 		(stroke
 			(width 0)
@@ -256,8 +216,8 @@
 		(uuid "ee50501d-bf32-4fa1-b349-f43308493135")
 	)
 	(sheet
-		(at 193.04 71.628)
-		(size 19.558 21.59)
+		(at 186.69 65.024)
+		(size 19.558 16.764)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -271,8 +231,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "2ee5046e-0e56-46eb-b0bb-bea5e503cbc9")
-		(property "Sheetname" "OLED"
-			(at 193.04 70.9164 0)
+		(property "Sheetname" "Add-On"
+			(at 186.69 64.3124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -281,7 +241,7 @@
 			)
 		)
 		(property "Sheetfile" "OLED.kicad_sch"
-			(at 193.04 93.8026 0)
+			(at 186.69 82.3726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -289,38 +249,8 @@
 				(justify left top)
 			)
 		)
-		(pin "DOWN" bidirectional
-			(at 193.04 85.09 180)
-			(uuid "31176c08-6b6f-4139-85e5-5688e44b3234")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "LEFT" bidirectional
-			(at 193.04 82.55 180)
-			(uuid "802da92f-b480-4195-a87d-a31a4344ebc0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RIGHT" bidirectional
-			(at 193.04 80.01 180)
-			(uuid "3cd9c759-14f0-4274-a6e5-436967b9fe5f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SCL" bidirectional
-			(at 193.04 77.47 180)
+			(at 186.69 72.39 180)
 			(uuid "cb2049bd-be11-4694-9270-a6497d1a0339")
 			(effects
 				(font
@@ -330,7 +260,7 @@
 			)
 		)
 		(pin "SDA" bidirectional
-			(at 193.04 74.93 180)
+			(at 186.69 69.85 180)
 			(uuid "7cf719b2-4623-42a7-a05c-7eb522caa8c3")
 			(effects
 				(font
@@ -339,18 +269,8 @@
 				(justify left)
 			)
 		)
-		(pin "UP" bidirectional
-			(at 193.04 87.63 180)
-			(uuid "9aee7f37-2fe9-4689-94d7-648a25da3457")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "v_3v3" input
-			(at 193.04 91.44 180)
+			(at 186.69 78.74 180)
 			(uuid "9af39156-3523-4b21-b18f-e5b234ae73f7")
 			(effects
 				(font
@@ -368,8 +288,8 @@
 		)
 	)
 	(sheet
-		(at 193.04 103.378)
-		(size 14.478 16.51)
+		(at 186.69 90.17)
+		(size 14.478 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -384,7 +304,7 @@
 		)
 		(uuid "680de73f-0f07-4b07-a85f-a6661c323846")
 		(property "Sheetname" "Neopixels"
-			(at 193.04 102.6664 0)
+			(at 186.69 89.4584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -393,7 +313,7 @@
 			)
 		)
 		(property "Sheetfile" "Neopixels.kicad_sch"
-			(at 193.04 120.4726 0)
+			(at 186.69 108.5346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -402,7 +322,7 @@
 			)
 		)
 		(pin "DIN_IR" input
-			(at 193.04 107.188 180)
+			(at 186.69 93.98 180)
 			(uuid "88cb6ee5-c9f4-46ba-a979-da0017e4cf8c")
 			(effects
 				(font
@@ -412,7 +332,7 @@
 			)
 		)
 		(pin "v_3v3" input
-			(at 193.04 116.078 180)
+			(at 186.69 104.14 180)
 			(uuid "0be92fa6-2b86-4e05-a825-60d909d3c168")
 			(effects
 				(font
@@ -625,7 +545,7 @@
 	)
 	(sheet
 		(at 140.97 62.992)
-		(size 38.1 48.768)
+		(size 31.75 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -648,7 +568,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 140.97 112.8526 0)
+			(at 140.97 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -747,7 +667,7 @@
 			)
 		)
 		(pin "DIN_IR" output
-			(at 179.07 107.188 0)
+			(at 172.72 93.98 0)
 			(uuid "f26060ce-18a9-4aa7-899e-d89925ffc394")
 			(effects
 				(font
@@ -756,38 +676,8 @@
 				(justify right)
 			)
 		)
-		(pin "DOWN" bidirectional
-			(at 179.07 85.09 0)
-			(uuid "89576a4a-789d-41aa-8df2-6a52bf2700eb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "LEFT" bidirectional
-			(at 179.07 82.55 0)
-			(uuid "d7f94e95-650e-422a-b283-ec7890512641")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RIGHT" bidirectional
-			(at 179.07 80.01 0)
-			(uuid "7734b384-8c80-4177-bc01-7201fb9b5d83")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "SCL" bidirectional
-			(at 179.07 77.47 0)
+			(at 172.72 72.39 0)
 			(uuid "feaee15e-3cfb-4605-babc-fe2c42b498f2")
 			(effects
 				(font
@@ -797,18 +687,8 @@
 			)
 		)
 		(pin "SDA" bidirectional
-			(at 179.07 74.93 0)
+			(at 172.72 69.85 0)
 			(uuid "160cc020-5d2c-4a53-960d-ae497f4886a0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "UP" bidirectional
-			(at 179.07 87.63 0)
-			(uuid "e331d303-f1d6-4cfb-adf5-cebe6f95250b")
 			(effects
 				(font
 					(size 1.27 1.27)

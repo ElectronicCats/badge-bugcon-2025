@@ -4505,7 +4505,7 @@
 		(uuid "4ccbbb8f-2d74-4ac2-9ed9-6b283fbec91a")
 	)
 	(junction
-		(at 218.44 48.26)
+		(at 218.44 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f1e5676-40ea-4c61-87d4-1ea3dc1bf3d4")
@@ -4581,6 +4581,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0d354d4-63f4-4e86-a838-1d7ce64adb8a")
+	)
+	(junction
+		(at 218.44 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d255936c-e860-4c8c-a166-76edffb399f7")
 	)
 	(junction
 		(at 186.69 66.04)
@@ -4740,7 +4746,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 48.26) (xy 218.44 48.26)
+			(xy 213.36 44.45) (xy 218.44 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4930,7 +4936,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 48.26) (xy 203.2 48.26)
+			(xy 205.74 44.45) (xy 203.2 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4977,6 +4983,16 @@
 			(type default)
 		)
 		(uuid "3731e9be-2943-4b6f-a1fe-3aa5d7b5cdb1")
+	)
+	(wire
+		(pts
+			(xy 218.44 52.07) (xy 218.44 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38a1992c-2bd3-44cd-ae19-af77e0499b3b")
 	)
 	(wire
 		(pts
@@ -5130,7 +5146,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 44.45) (xy 218.44 48.26)
+			(xy 218.44 39.37) (xy 218.44 44.45)
 		)
 		(stroke
 			(width 0)
@@ -5140,7 +5156,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 48.26) (xy 218.44 53.34)
+			(xy 218.44 44.45) (xy 218.44 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5380,7 +5396,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 48.26) (xy 203.2 50.8)
+			(xy 203.2 44.45) (xy 203.2 46.99)
 		)
 		(stroke
 			(width 0)
@@ -5527,6 +5543,16 @@
 			(type default)
 		)
 		(uuid "9a9dd9fe-09c7-4e5a-9ebc-f2bb249dcdbe")
+	)
+	(wire
+		(pts
+			(xy 205.74 52.07) (xy 218.44 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bc4a7c2-627c-4083-ba92-7215debdb5f7")
 	)
 	(wire
 		(pts
@@ -6010,6 +6036,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 60.96) (xy 205.74 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebf03683-4962-438a-8cf3-a0ffecf62353")
+	)
+	(wire
+		(pts
 			(xy 52.07 151.13) (xy 55.88 151.13)
 		)
 		(stroke
@@ -6037,6 +6073,16 @@
 			(type default)
 		)
 		(uuid "eec8ba2d-3cf4-46f9-b2e3-0eaa7ec84fd1")
+	)
+	(wire
+		(pts
+			(xy 205.74 60.96) (xy 205.74 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef3b77bc-6ea1-4734-ab2b-08c26f40381c")
 	)
 	(wire
 		(pts
@@ -7570,7 +7616,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "Bateria LiPo 3.7V 2500mAh 104050"
+		(property "manf#" "Bateria 18650 3.7V 2200mAh ±5% "
 			(at 274.32 60.96 0)
 			(effects
 				(font
@@ -7579,7 +7625,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C131337"
+		(property "LCSC#" "C2988620"
 			(at 274.32 60.96 0)
 			(effects
 				(font
@@ -9572,7 +9618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121619_TOPPOWER-Nanjing-Extension-Microelectronics-TP4056-42-ESOP8_C16581.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C725790.pdf"
 			(at 218.44 91.44 0)
 			(effects
 				(font
@@ -9583,6 +9629,15 @@
 		)
 		(property "Description" "1A Standalone Linear Li-ion/LiPo single-cell battery charger, 4.2V ±1% charge voltage, VCC = 4.0..8.0V, SOIC-8 (SOP-8)"
 			(at 218.948 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C725790"
+			(at 218.44 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9628,7 +9683,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 50.8 0)
+		(at 203.2 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9636,7 +9691,7 @@
 		(dnp no)
 		(uuid "48c7d6a9-3810-4b77-8e0a-f20a5d3316f6")
 		(property "Reference" "#PWR0161"
-			(at 203.2 57.15 0)
+			(at 203.2 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9645,7 +9700,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.232 54.61 0)
+			(at 205.232 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9654,7 +9709,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 50.8 0)
+			(at 203.2 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9663,7 +9718,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 50.8 0)
+			(at 203.2 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9672,7 +9727,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.2 50.8 0)
+			(at 203.2 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9758,7 +9813,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 218.44 44.45 0)
+		(at 218.44 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9766,7 +9821,7 @@
 		(dnp no)
 		(uuid "4b36bafd-d1c4-4514-8201-0a81a01cbdc4")
 		(property "Reference" "#PWR030"
-			(at 218.44 48.26 0)
+			(at 218.44 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9775,7 +9830,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 218.821 40.0558 0)
+			(at 218.821 34.9758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9783,7 +9838,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 44.45 0)
+			(at 218.44 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9792,7 +9847,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 44.45 0)
+			(at 218.44 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9801,7 +9856,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 218.44 44.45 0)
+			(at 218.44 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10396,7 +10451,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C162274"
+		(property "LCSC#" "C96446"
 			(at 243.84 66.04 0)
 			(effects
 				(font
@@ -15307,7 +15362,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 209.55 48.26 90)
+		(at 209.55 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15315,7 +15370,7 @@
 		(dnp no)
 		(uuid "d0f23be1-20b2-4f82-be95-aab00222d31b")
 		(property "Reference" "C70"
-			(at 209.55 42.164 90)
+			(at 209.55 38.354 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15323,7 +15378,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 209.55 44.704 90)
+			(at 209.55 40.894 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15331,7 +15386,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 213.36 47.2948 0)
+			(at 213.36 43.4848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15340,7 +15395,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 48.26 0)
+			(at 209.55 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15349,7 +15404,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 209.55 48.26 0)
+			(at 209.55 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15358,7 +15413,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 209.55 48.26 90)
+			(at 209.55 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15367,7 +15422,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 209.55 48.26 90)
+			(at 209.55 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15376,7 +15431,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 209.55 48.26 90)
+			(at 209.55 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15385,7 +15440,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 209.55 48.26 90)
+			(at 209.55 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15393,8 +15448,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C162274"
-			(at 209.55 48.26 90)
+		(property "LCSC#" "C96446"
+			(at 209.55 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15403,7 +15458,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 209.55 48.26 90)
+			(at 209.55 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15412,7 +15467,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 209.55 48.26 90)
+			(at 209.55 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15421,7 +15476,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 209.55 48.26 90)
+			(at 209.55 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15430,7 +15485,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 209.55 48.26 90)
+			(at 209.55 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15439,7 +15494,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 209.55 48.26 90)
+			(at 209.55 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15448,7 +15503,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 209.55 48.26 90)
+			(at 209.55 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15457,7 +15512,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 209.55 48.26 90)
+			(at 209.55 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15466,7 +15521,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 209.55 48.26 90)
+			(at 209.55 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15475,7 +15530,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 209.55 48.26 90)
+			(at 209.55 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15484,7 +15539,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 209.55 48.26 90)
+			(at 209.55 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15493,7 +15548,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 209.55 48.26 90)
+			(at 209.55 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15502,7 +15557,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 209.55 48.26 90)
+			(at 209.55 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
