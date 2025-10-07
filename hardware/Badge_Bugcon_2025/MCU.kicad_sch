@@ -15249,6 +15249,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 217.17) (xy 53.34 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d9a4fed-db2d-4a1d-b1a5-3784818bf95e")
+	)
+	(wire
+		(pts
 			(xy 38.1 171.45) (xy 43.18 171.45)
 		)
 		(stroke
@@ -16919,6 +16929,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 217.17) (xy 59.69 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "976ac498-3bd6-4492-b632-c12ed16e0470")
+	)
+	(wire
+		(pts
 			(xy 24.13 236.22) (xy 22.86 236.22)
 		)
 		(stroke
@@ -17236,16 +17256,6 @@
 			(type default)
 		)
 		(uuid "ae034e6c-7221-485c-9cd2-bd659615f220")
-	)
-	(wire
-		(pts
-			(xy 55.88 217.17) (xy 53.34 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae227534-edbf-440c-96fa-657a8bb444fe")
 	)
 	(wire
 		(pts
@@ -20336,16 +20346,6 @@
 			(justify right bottom)
 		)
 		(uuid "f4b6891d-ffe5-47c4-bb30-f3165c2329d2")
-	)
-	(label "VCC1V8_CODEC"
-		(at 55.88 217.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f4c425c2-f81b-4b3f-a56f-436b63190c6d")
 	)
 	(label "ETH_PHY_RXP"
 		(at 55.88 261.62 0)
@@ -24762,6 +24762,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V8")
+		(at 59.69 214.63 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37d7c7a9-2f40-4f75-aa29-2991f8bbfc91")
+		(property "Reference" "#PWR09"
+			(at 59.69 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 55.88 213.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 59.69 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6259f1d8-1969-4e07-9bcf-03e017d54493")
+		)
+		(instances
+			(project "Badge_Bugcon_2025"
+				(path "/a95785a0-0aa1-454e-b59f-0ac64970ac71/b4a4bbe3-3d97-4ef8-9067-81f34711c2c0"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 74.93 140.97 0)
 		(unit 1)
@@ -26606,7 +26672,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x24_P2.54mm_Vertical"
 			(at 81.28 245.11 0)
 			(effects
 				(font
@@ -41528,7 +41594,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x23_P2.54mm_Vertical"
 			(at 111.76 246.38 0)
 			(effects
 				(font

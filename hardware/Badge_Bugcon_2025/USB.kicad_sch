@@ -7553,7 +7553,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:Batt"
+		(property "Footprint" "Battery:BatteryHolder_Keystone_1042_1x18650"
 			(at 274.32 60.96 0)
 			(effects
 				(font
@@ -16590,7 +16590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 184.912 57.15 90)
 			(effects
 				(font
