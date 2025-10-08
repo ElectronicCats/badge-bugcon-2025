@@ -12,14 +12,24 @@
 		(uuid "5eb86b5d-1667-4e44-b5b4-69c64bfd2a7f")
 	)
 	(junction
-		(at 129.54 83.058)
+		(at 129.54 76.2)
 		(diameter 0)
 		(color 255 23 32 1)
-		(uuid "964952e5-bbc6-44f8-aeb3-3b15c90cbf67")
+		(uuid "e747c8d3-150d-4a7a-b018-f05023f0b041")
 	)
 	(wire
 		(pts
-			(xy 110.236 83.058) (xy 129.54 83.058)
+			(xy 80.01 80.01) (xy 87.63 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0242f9c0-38a2-4cc2-8afd-ab154bd19fc5")
+	)
+	(wire
+		(pts
+			(xy 110.49 76.2) (xy 129.54 76.2)
 		)
 		(stroke
 			(width 0)
@@ -30,7 +40,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 83.058) (xy 129.54 104.14)
+			(xy 129.54 76.2) (xy 129.54 104.14)
 		)
 		(stroke
 			(width 0)
@@ -51,7 +61,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 94.488) (xy 140.97 94.488)
+			(xy 80.01 93.98) (xy 140.97 93.98)
 		)
 		(stroke
 			(width 0)
@@ -61,7 +71,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.236 80.518) (xy 140.97 80.518)
+			(xy 110.49 73.66) (xy 140.97 73.66)
 		)
 		(stroke
 			(width 0)
@@ -94,16 +104,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 81.788) (xy 86.36 81.788)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80d86d79-ba6f-4869-a51a-02be2b06470b")
-	)
-	(wire
-		(pts
 			(xy 172.72 93.98) (xy 186.69 93.98)
 		)
 		(stroke
@@ -114,7 +114,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.236 77.978) (xy 140.97 77.978)
+			(xy 110.49 71.12) (xy 140.97 71.12)
 		)
 		(stroke
 			(width 0)
@@ -124,17 +124,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 91.948) (xy 140.97 91.948)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92308a66-6b06-4d66-a862-ea4619870a1a")
-	)
-	(wire
-		(pts
-			(xy 129.54 83.058) (xy 140.97 83.058)
+			(xy 129.54 76.2) (xy 140.97 76.2)
 		)
 		(stroke
 			(width 0)
@@ -142,16 +132,6 @@
 			(color 255 23 32 1)
 		)
 		(uuid "a809cd4f-d3c6-4c0e-826f-6a7d41e8ecf1")
-	)
-	(wire
-		(pts
-			(xy 80.01 89.408) (xy 140.97 89.408)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba8682b0-36d9-446f-8ef4-b543ea4eec0e")
 	)
 	(wire
 		(pts
@@ -166,7 +146,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.236 75.438) (xy 140.97 75.438)
+			(xy 110.49 68.58) (xy 140.97 68.58)
 		)
 		(stroke
 			(width 0)
@@ -197,23 +177,23 @@
 	)
 	(wire
 		(pts
-			(xy 110.236 70.358) (xy 140.97 70.358)
+			(xy 80.01 91.44) (xy 140.97 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "edb3f2a2-8b98-458c-b9cb-548c1378cdb1")
+		(uuid "f038ffa1-8640-4ddb-b083-2f7610ec11a8")
 	)
 	(wire
 		(pts
-			(xy 110.236 67.818) (xy 140.97 67.818)
+			(xy 80.01 88.9) (xy 140.97 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee50501d-bf32-4fa1-b349-f43308493135")
+		(uuid "f360fa74-bd55-4056-bc65-7e841f749fca")
 	)
 	(sheet
 		(at 186.69 65.024)
@@ -350,8 +330,8 @@
 		)
 	)
 	(sheet
-		(at 86.36 63.246)
-		(size 23.876 23.114)
+		(at 87.63 62.992)
+		(size 22.86 20.828)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -366,7 +346,7 @@
 		)
 		(uuid "777dc19f-2824-4c28-abba-46be3f558275")
 		(property "Sheetname" "Buck_Converter"
-			(at 86.36 62.5344 0)
+			(at 87.63 62.2804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -375,7 +355,7 @@
 			)
 		)
 		(property "Sheetfile" "Buck_Converter.kicad_sch"
-			(at 86.36 86.9446 0)
+			(at 87.63 84.4046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -383,38 +363,8 @@
 				(justify left top)
 			)
 		)
-		(pin "POGO_RX" input
-			(at 110.236 67.818 0)
-			(uuid "88e7a5b6-a008-409a-a573-82b0b3004072")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "POGO_TX" output
-			(at 110.236 70.358 0)
-			(uuid "98947816-ed99-4bea-88ff-4ffd8459ed16")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "V5V" output
-			(at 86.36 81.788 180)
-			(uuid "6c33d219-e050-48de-8729-a6914576ff82")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "VCC_DDR" output
-			(at 110.236 75.438 0)
+			(at 110.49 68.58 0)
 			(uuid "55c15f67-ef2b-4691-9dc5-7696cdcfb4c3")
 			(effects
 				(font
@@ -424,7 +374,7 @@
 			)
 		)
 		(pin "v_0.9v" output
-			(at 110.236 77.978 0)
+			(at 110.49 71.12 0)
 			(uuid "54acb56e-ab98-434c-bb92-b5fc96d62e40")
 			(effects
 				(font
@@ -434,7 +384,7 @@
 			)
 		)
 		(pin "v_1.8v" output
-			(at 110.236 80.518 0)
+			(at 110.49 73.66 0)
 			(uuid "4e99ec18-9aa3-410f-ad41-cb7b2172cbbc")
 			(effects
 				(font
@@ -444,13 +394,23 @@
 			)
 		)
 		(pin "v_3v3" output
-			(at 110.236 83.058 0)
+			(at 110.49 76.2 0)
 			(uuid "97988555-5c56-4ec4-b0b4-3ec9e5809fa1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "VCC" input
+			(at 87.63 80.01 180)
+			(uuid "cb5053dd-6d55-4f59-8ed3-834f41807456")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -462,8 +422,8 @@
 		)
 	)
 	(sheet
-		(at 60.96 79.502)
-		(size 19.05 18.288)
+		(at 60.96 76.708)
+		(size 19.05 21.082)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -478,7 +438,7 @@
 		)
 		(uuid "a5c26cac-72fa-4752-a660-9cd751934916")
 		(property "Sheetname" "USB"
-			(at 60.96 78.7904 0)
+			(at 60.96 75.9964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -495,28 +455,8 @@
 				(justify left top)
 			)
 		)
-		(pin "D+" output
-			(at 80.01 89.408 0)
-			(uuid "3bfc4148-9238-47ac-a56d-ddd853164228")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "D-" output
-			(at 80.01 91.948 0)
-			(uuid "5bac9f45-b7ec-4188-afa7-0deb01a528a6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "USB_DET" output
-			(at 80.01 94.488 0)
+			(at 80.01 93.98 0)
 			(uuid "19322214-23d0-40e8-ab94-dc3135158f9a")
 			(effects
 				(font
@@ -525,9 +465,29 @@
 				(justify right)
 			)
 		)
-		(pin "V5V" output
-			(at 80.01 81.788 0)
-			(uuid "a7006f0d-dcce-42af-9fab-cf13a83d72d4")
+		(pin "VCC" output
+			(at 80.01 80.01 0)
+			(uuid "7a6f1348-4148-4c12-beb8-15de8cb36f07")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D+" bidirectional
+			(at 80.01 88.9 0)
+			(uuid "4b220649-41b7-4549-ae3f-a9beab4953b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D-" bidirectional
+			(at 80.01 91.44 0)
+			(uuid "a1cf0350-4099-4bef-81c9-0314980c3391")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -576,28 +536,8 @@
 				(justify left top)
 			)
 		)
-		(pin "POGO_RX" input
-			(at 140.97 67.818 180)
-			(uuid "e405030f-3ba6-4da9-8f0c-c7195abd3fea")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "POGO_TX" output
-			(at 140.97 70.358 180)
-			(uuid "1034b214-a123-4688-90d9-8eaa4e28214c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "VCC_DDR" input
-			(at 140.97 75.438 180)
+			(at 140.97 68.58 180)
 			(uuid "c690189d-b072-4947-9e09-53b424fa519d")
 			(effects
 				(font
@@ -607,7 +547,7 @@
 			)
 		)
 		(pin "v_0.9v" input
-			(at 140.97 77.978 180)
+			(at 140.97 71.12 180)
 			(uuid "1abbaf52-70bc-4f62-9736-26f4ec2855fd")
 			(effects
 				(font
@@ -617,7 +557,7 @@
 			)
 		)
 		(pin "v_1.8v" input
-			(at 140.97 80.518 180)
+			(at 140.97 73.66 180)
 			(uuid "94ec0139-d27a-4ef0-a2f2-cdcf962a0e95")
 			(effects
 				(font
@@ -627,7 +567,7 @@
 			)
 		)
 		(pin "v_3v3" input
-			(at 140.97 83.058 180)
+			(at 140.97 76.2 180)
 			(uuid "c897bb3d-abb3-4933-8d34-5ccbf78c8444")
 			(effects
 				(font
@@ -636,28 +576,8 @@
 				(justify left)
 			)
 		)
-		(pin "D+" input
-			(at 140.97 89.408 180)
-			(uuid "34fa7993-44cf-4741-8224-f816fbded9b2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "D-" input
-			(at 140.97 91.948 180)
-			(uuid "44efa5c7-a60d-4a5b-a6b6-1ed328e5892c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "USB_DET" input
-			(at 140.97 94.488 180)
+			(at 140.97 93.98 180)
 			(uuid "7081e689-757a-499a-be5e-7e9d8510c2a7")
 			(effects
 				(font
@@ -694,6 +614,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "D+" bidirectional
+			(at 140.97 88.9 180)
+			(uuid "fc30a429-a873-4e09-aad5-092a3fa9d3cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D-" bidirectional
+			(at 140.97 91.44 180)
+			(uuid "aaff80fc-d688-4f75-bfba-d6686a738abb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

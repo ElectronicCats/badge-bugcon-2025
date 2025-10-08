@@ -659,6 +659,17 @@
 		)
 		(uuid "78365897-d54c-47e0-9a95-acada602591f")
 	)
+	(hierarchical_label "v_3v3"
+		(shape input)
+		(at 69.85 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a292c71c-443f-412f-b841-76407d48069b")
+	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 110.49 58.42 180)
