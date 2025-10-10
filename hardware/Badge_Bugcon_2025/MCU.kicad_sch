@@ -18664,6 +18664,16 @@
 		)
 		(uuid "03776f70-a158-41ec-9641-9248d2b7c2c1")
 	)
+	(label "CODEC_VCM"
+		(at 133.35 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04e14327-9eb7-489e-b23f-394b4e4e820e")
+	)
 	(label "GPIO1_A4_D"
 		(at 87.63 267.97 0)
 		(effects
@@ -19113,16 +19123,6 @@
 			(justify left bottom)
 		)
 		(uuid "3fca291f-d35d-4e11-ac36-69bd8fa6de63")
-	)
-	(label "CODEC_AVSS"
-		(at 151.13 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "41414d6a-833e-457b-a759-ec9251f07d78")
 	)
 	(label "GPIO2_A_2_D"
 		(at 289.56 156.21 180)
@@ -19864,16 +19864,6 @@
 		)
 		(uuid "a1477ca5-b952-4f85-b746-b413460a41ed")
 	)
-	(label "CODEC_AVSS"
-		(at 48.26 236.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a1b93644-bf0a-4433-8432-afde562fc450")
-	)
 	(label "GPIO2_B1_D_2"
 		(at 289.56 140.97 180)
 		(effects
@@ -20045,7 +20035,7 @@
 		(uuid "b3268a7e-3ee0-4f97-9599-96c3881d0014")
 	)
 	(label "CODEC_LINEOUT"
-		(at 48.26 220.98 0)
+		(at 48.26 236.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20193,6 +20183,16 @@
 			(justify left bottom)
 		)
 		(uuid "beafad40-6305-4d83-9054-79534268fe7d")
+	)
+	(label "CODEC_VCM"
+		(at 48.26 220.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "beefc255-398a-40e9-9936-2766d6ad32a6")
 	)
 	(label "GPIO2_A5_D"
 		(at 289.56 163.83 180)
