@@ -10630,7 +10630,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C445802"
+		(property "LCSC#" "C2907181"
 			(at 201.93 116.84 90)
 			(effects
 				(font
@@ -13579,7 +13579,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C445802"
+		(property "LCSC#" "C2907181"
 			(at 270.51 43.18 90)
 			(effects
 				(font
@@ -16778,7 +16778,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C445802"
+		(property "LCSC#" "C2907181"
 			(at 270.51 116.84 90)
 			(effects
 				(font
