@@ -6960,7 +6960,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_A_Connfly_DS1095"
+		(property "Footprint" "Footprints:USB_A_Connfly_DS1095"
 			(at 25.4 158.75 0)
 			(effects
 				(font
@@ -7023,7 +7023,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C18077686"
+		(property "LCSC#" "C2345"
 			(at 21.59 157.48 0)
 			(effects
 				(font
@@ -16163,7 +16163,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_A_Connfly_DS1095"
+		(property "Footprint" "Footprints:USB_A_Connfly_DS1095"
 			(at 146.05 144.78 0)
 			(effects
 				(font
@@ -16226,7 +16226,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C18077686"
+		(property "LCSC#" "C2345"
 			(at 149.86 143.51 0)
 			(effects
 				(font
@@ -16875,7 +16875,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_A_Connfly_DS1095"
+		(property "Footprint" "Footprints:USB_A_Connfly_DS1095"
 			(at 146.05 177.8 0)
 			(effects
 				(font
@@ -16938,7 +16938,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C18077686"
+		(property "LCSC#" "C2345"
 			(at 149.86 176.53 0)
 			(effects
 				(font
