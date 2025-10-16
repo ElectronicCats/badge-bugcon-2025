@@ -5,18 +5,6 @@
 	(uuid "a95785a0-0aa1-454e-b59f-0ac64970ac71")
 	(paper "A4")
 	(lib_symbols)
-	(junction
-		(at 179.07 104.14)
-		(diameter 0)
-		(color 255 23 32 1)
-		(uuid "5eb86b5d-1667-4e44-b5b4-69c64bfd2a7f")
-	)
-	(junction
-		(at 129.54 76.2)
-		(diameter 0)
-		(color 255 23 32 1)
-		(uuid "e747c8d3-150d-4a7a-b018-f05023f0b041")
-	)
 	(wire
 		(pts
 			(xy 80.01 80.01) (xy 87.63 80.01)
@@ -29,25 +17,14 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 76.2) (xy 129.54 76.2)
+			(xy 88.9 111.76) (xy 179.07 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 			(color 255 23 32 1)
 		)
-		(uuid "1abbfd0e-5a71-4ce8-8b2a-f1d969618a72")
-	)
-	(wire
-		(pts
-			(xy 129.54 76.2) (xy 129.54 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 23 32 1)
-		)
-		(uuid "408cdd83-704f-4fae-81e1-d3b71f0da198")
+		(uuid "0d60af82-181e-4757-a4c8-6d112f58144b")
 	)
 	(wire
 		(pts
@@ -71,18 +48,38 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 73.66) (xy 140.97 73.66)
+			(xy 88.9 106.68) (xy 80.01 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 255 141 30 1)
+			(color 255 23 32 1)
 		)
-		(uuid "55a3d4f6-d57a-405e-92ea-9f7b9b6a457e")
+		(uuid "5a46f8d3-2360-4d06-a907-a1c1d68f476d")
 	)
 	(wire
 		(pts
-			(xy 179.07 78.74) (xy 179.07 104.14)
+			(xy 80.01 101.6) (xy 140.97 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ce0c45f-108e-4b2b-a560-f4cb7e71d4f2")
+	)
+	(wire
+		(pts
+			(xy 80.01 99.06) (xy 140.97 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "600cc73e-a8f6-46f1-b493-50854fcaaa7d")
+	)
+	(wire
+		(pts
+			(xy 179.07 83.82) (xy 179.07 111.76)
 		)
 		(stroke
 			(width 0)
@@ -93,7 +90,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 78.74) (xy 186.69 78.74)
+			(xy 179.07 83.82) (xy 186.69 83.82)
 		)
 		(stroke
 			(width 0)
@@ -101,16 +98,6 @@
 			(color 255 23 32 1)
 		)
 		(uuid "8051d6a9-f304-4e7f-9149-b94ac0eb260a")
-	)
-	(wire
-		(pts
-			(xy 172.72 93.98) (xy 186.69 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83ba13d4-d185-4a03-9cac-419aac42e470")
 	)
 	(wire
 		(pts
@@ -124,25 +111,34 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 76.2) (xy 140.97 76.2)
+			(xy 88.9 111.76) (xy 88.9 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 			(color 255 23 32 1)
 		)
-		(uuid "a809cd4f-d3c6-4c0e-826f-6a7d41e8ecf1")
+		(uuid "933e4571-b810-4650-bc24-f9ddc111c011")
 	)
 	(wire
 		(pts
-			(xy 179.07 104.14) (xy 186.69 104.14)
+			(xy 110.49 76.2) (xy 140.97 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 255 23 32 1)
 		)
-		(uuid "bc7c8825-d0e6-4831-a457-7cfb64664f48")
+		(uuid "a057609e-ade5-4da0-9af8-f1aa90f47f4b")
+	)
+	(wire
+		(pts
+			(xy 110.49 73.66) (xy 140.97 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5ea3d53-7783-4fb6-983a-135bb9838f4d")
 	)
 	(wire
 		(pts
@@ -166,14 +162,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 104.14) (xy 179.07 104.14)
+			(xy 172.72 77.47) (xy 186.69 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 255 23 32 1)
 		)
-		(uuid "ccff99f1-0730-4931-bf43-8866ca294d4b")
+		(uuid "dd2b8530-9455-4e0f-a8dd-6450ea9acacf")
 	)
 	(wire
 		(pts
@@ -197,7 +192,7 @@
 	)
 	(sheet
 		(at 186.69 65.024)
-		(size 19.558 16.764)
+		(size 19.558 22.098)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -211,7 +206,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "2ee5046e-0e56-46eb-b0bb-bea5e503cbc9")
-		(property "Sheetname" "Add-On"
+		(property "Sheetname" "Otros"
 			(at 186.69 64.3124 0)
 			(effects
 				(font
@@ -220,8 +215,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "OLED.kicad_sch"
-			(at 186.69 82.3726 0)
+		(property "Sheetfile" "Otros.kicad_sch"
+			(at 186.69 87.7066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -249,9 +244,19 @@
 				(justify left)
 			)
 		)
-		(pin "v_3v3" input
-			(at 186.69 78.74 180)
-			(uuid "9af39156-3523-4b21-b18f-e5b234ae73f7")
+		(pin "+3.3v" input
+			(at 186.69 83.82 180)
+			(uuid "e711e1c9-5c6e-428f-9c27-7fae1cb11b11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIN_IR" input
+			(at 186.69 77.47 180)
+			(uuid "05445b15-6e8d-4138-8516-e9bfb6b31ffb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -263,68 +268,6 @@
 			(project "Badge_Bugcon_2025"
 				(path "/a95785a0-0aa1-454e-b59f-0ac64970ac71"
 					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 186.69 90.17)
-		(size 14.478 17.78)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "680de73f-0f07-4b07-a85f-a6661c323846")
-		(property "Sheetname" "Neopixels"
-			(at 186.69 89.4584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Neopixels.kicad_sch"
-			(at 186.69 108.5346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "DIN_IR" input
-			(at 186.69 93.98 180)
-			(uuid "88cb6ee5-c9f4-46ba-a979-da0017e4cf8c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "v_3v3" input
-			(at 186.69 104.14 180)
-			(uuid "0be92fa6-2b86-4e05-a825-60d909d3c168")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "Badge_Bugcon_2025"
-				(path "/a95785a0-0aa1-454e-b59f-0ac64970ac71"
-					(page "5")
 				)
 			)
 		)
@@ -423,12 +366,11 @@
 	)
 	(sheet
 		(at 60.96 76.708)
-		(size 19.05 21.082)
+		(size 19.05 33.274)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -447,7 +389,7 @@
 			)
 		)
 		(property "Sheetfile" "USB.kicad_sch"
-			(at 60.96 98.3746 0)
+			(at 60.96 110.998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -495,6 +437,36 @@
 				(justify right)
 			)
 		)
+		(pin "+3.3v" output
+			(at 80.01 106.68 0)
+			(uuid "a13285cf-b3c7-4c93-87f8-731903ec2151")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Battery" output
+			(at 80.01 99.06 0)
+			(uuid "949beb81-159c-4892-8a2e-5d2e9c9b2c47")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Enable" input
+			(at 80.01 101.6 0)
+			(uuid "529f88f1-77f2-4930-b218-01d6a18facae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Badge_Bugcon_2025"
 				(path "/a95785a0-0aa1-454e-b59f-0ac64970ac71"
@@ -505,7 +477,7 @@
 	)
 	(sheet
 		(at 140.97 62.992)
-		(size 31.75 36.83)
+		(size 31.75 42.672)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -528,7 +500,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 140.97 100.33 0)
+			(at 140.97 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -587,7 +559,7 @@
 			)
 		)
 		(pin "DIN_IR" output
-			(at 172.72 93.98 0)
+			(at 172.72 77.47 0)
 			(uuid "f26060ce-18a9-4aa7-899e-d89925ffc394")
 			(effects
 				(font
@@ -629,6 +601,26 @@
 		(pin "D-" bidirectional
 			(at 140.97 91.44 180)
 			(uuid "aaff80fc-d688-4f75-bfba-d6686a738abb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Battery" input
+			(at 140.97 99.06 180)
+			(uuid "1a6d977d-1e2b-4c5b-ac68-10a21c70f66e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Enable" output
+			(at 140.97 101.6 180)
+			(uuid "0be8351a-49a3-44dd-9ea7-fe04647e8e49")
 			(effects
 				(font
 					(size 1.27 1.27)

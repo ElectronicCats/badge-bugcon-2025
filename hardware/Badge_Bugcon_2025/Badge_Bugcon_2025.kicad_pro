@@ -762,6 +762,18 @@
           "label": "Sim.Device",
           "name": "Sim.Device",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB",
+          "name": "JLCPCB",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacter Number",
+          "name": "Manufacter Number",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -825,16 +837,12 @@
       "Buck_Converter"
     ],
     [
-      "680de73f-0f07-4b07-a85f-a6661c323846",
-      "Neopixels"
-    ],
-    [
       "a5c26cac-72fa-4752-a660-9cd751934916",
       "USB"
     ],
     [
       "2ee5046e-0e56-46eb-b0bb-bea5e503cbc9",
-      "Add-On"
+      "Otros"
     ]
   ],
   "text_variables": {}

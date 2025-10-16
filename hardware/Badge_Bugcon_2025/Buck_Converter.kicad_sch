@@ -4544,6 +4544,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 104.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
+			(at 104.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f1893367-a494-4ef3-b678-5f5f8f47023a")
 		)
@@ -4814,6 +4832,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 31.75 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 31.75 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
 			(at 31.75 82.55 90)
 			(effects
 				(font
@@ -5100,6 +5136,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 31.75 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
+			(at 31.75 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "16f9a8a0-47da-422a-ba44-456fc6cbb85d")
 		)
@@ -5369,6 +5423,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 229.87 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 229.87 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
 			(at 229.87 113.03 90)
 			(effects
 				(font
@@ -5710,6 +5782,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 243.84 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
+			(at 243.84 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cb11407c-d265-4830-a156-a926e1937377")
 		)
@@ -5980,6 +6070,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 95.25 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
+			(at 95.25 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dcac24c3-2fdd-452b-859d-3c9c17c82a41")
 		)
@@ -6242,6 +6350,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 113.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 113.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
 			(at 113.03 73.66 0)
 			(effects
 				(font
@@ -6528,6 +6654,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 31.75 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
+			(at 31.75 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "419f5839-19ac-41c9-af60-a992657d6d1f")
 		)
@@ -6798,6 +6942,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 31.75 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 31.75 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
 			(at 31.75 41.91 90)
 			(effects
 				(font
@@ -7207,6 +7369,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 160.02 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
+			(at 160.02 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "130464bc-c033-4357-ad3d-b01667841f9c")
 		)
@@ -7476,6 +7656,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 157.48 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 157.48 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
 			(at 157.48 111.76 90)
 			(effects
 				(font
@@ -7755,6 +7953,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 175.26 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 175.26 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
 			(at 175.26 45.72 0)
 			(effects
 				(font
@@ -8057,6 +8273,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 201.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
+			(at 201.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "016e5b12-5939-48bb-8f36-9fb5104ec160")
 		)
@@ -8351,6 +8585,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 270.51 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
+			(at 270.51 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c5c3fa33-6714-4c31-a6d9-b797490676c2")
 		)
@@ -8637,6 +8889,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 270.51 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 270.51 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
 			(at 270.51 50.8 0)
 			(effects
 				(font
@@ -9176,6 +9446,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 245.11 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
+			(at 245.11 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e4ac56f0-b34d-4a7c-9e87-f364a80dd073")
 		)
@@ -9453,6 +9741,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 231.14 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
+			(at 231.14 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3eb8518b-ce59-46e3-bb99-af89e06e89dc")
 		)
@@ -9713,6 +10019,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 243.84 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 243.84 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
 			(at 243.84 118.11 90)
 			(effects
 				(font
@@ -10007,6 +10331,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 196.85 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
+			(at 196.85 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "84e868eb-f641-4067-abac-adec108cc009")
 		)
@@ -10276,6 +10618,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 153.67 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 153.67 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
 			(at 153.67 40.64 90)
 			(effects
 				(font
@@ -10562,6 +10922,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 31.75 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
+			(at 31.75 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b57e8886-15fa-4790-9896-2f9719c0dc47")
 		)
@@ -10775,6 +11153,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 201.93 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 201.93 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
 			(at 201.93 116.84 90)
 			(effects
 				(font
@@ -11468,6 +11864,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 196.85 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
+			(at 196.85 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "78e1deb7-6bd0-44a1-96e9-090f372efe33")
 		)
@@ -11859,6 +12273,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 85.09 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 85.09 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
 			(at 85.09 107.95 0)
 			(effects
 				(font
@@ -12286,6 +12718,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 179.07 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
+			(at 179.07 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8b4a15ba-e7f5-4646-80fa-64e3b039d0a2")
 		)
@@ -12628,6 +13078,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 167.64 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
+			(at 167.64 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "10513608-c4d5-4196-bede-d277996de9b2")
 		)
@@ -12890,6 +13358,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 163.83 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 163.83 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
 			(at 163.83 116.84 0)
 			(effects
 				(font
@@ -13177,6 +13663,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 251.46 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
+			(at 251.46 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "693ba783-0793-46ae-87fc-2757b8e8bb9f")
 		)
@@ -13437,6 +13941,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 167.64 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 167.64 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
 			(at 167.64 45.72 90)
 			(effects
 				(font
@@ -13724,6 +14246,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 270.51 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 270.51 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
 			(at 270.51 43.18 90)
 			(effects
 				(font
@@ -14065,6 +14605,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 171.45 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
+			(at 171.45 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "78659a12-bba0-4daa-b437-9186feaf481f")
 		)
@@ -14344,6 +14902,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 252.73 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
+			(at 252.73 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8d5b019c-87c1-4045-a89e-61b639d27448")
 		)
@@ -14604,6 +15180,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 245.11 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 245.11 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
 			(at 245.11 45.72 90)
 			(effects
 				(font
@@ -14956,6 +15550,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 31.75 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
+			(at 31.75 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ccae7d2d-add3-45d6-af15-8e55d227cb53")
 		)
@@ -15218,6 +15830,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 236.22 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 236.22 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
 			(at 236.22 118.11 0)
 			(effects
 				(font
@@ -15624,6 +16254,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 171.45 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
+			(at 171.45 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a8c735cc-f080-4336-8132-d35222c06557")
 		)
@@ -15886,6 +16534,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 237.49 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 237.49 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
 			(at 237.49 45.72 0)
 			(effects
 				(font
@@ -16302,6 +16968,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 31.75 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
+			(at 31.75 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6c94be11-a16b-4642-a11b-bed2fcf1a7d6")
 		)
@@ -16710,6 +17394,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" ""
+			(at 31.75 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
+			(at 31.75 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "17737443-5333-4aee-94c5-0e115bfc62fc")
 		)
@@ -16923,6 +17625,24 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 270.51 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 270.51 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacter Number" ""
 			(at 270.51 116.84 90)
 			(effects
 				(font
