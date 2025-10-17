@@ -14185,6 +14185,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 48.26) (xy 153.67 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01419ce7-dd7b-471e-9d0d-ed2cf5b71369")
+	)
+	(wire
+		(pts
 			(xy 64.77 77.47) (xy 64.77 80.01)
 		)
 		(stroke
@@ -16765,6 +16775,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 53.34) (xy 285.75 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aab188f3-0d0c-42b1-a2ca-adf8a5cadf4d")
+	)
+	(wire
+		(pts
 			(xy 24.13 109.22) (xy 27.94 109.22)
 		)
 		(stroke
@@ -18523,16 +18543,6 @@
 		)
 		(uuid "53111210-ffcc-41c3-bd56-0e3906bba88f")
 	)
-	(label "GPIO1_B1_D"
-		(at 285.75 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "54c60a85-0c6b-4021-b8be-6e65dcce0516")
-	)
 	(label "GPIO0_A0_Z"
 		(at 118.11 241.3 0)
 		(effects
@@ -19383,16 +19393,6 @@
 		)
 		(uuid "c70d6040-cef5-473f-955d-99fb6b2f6efd")
 	)
-	(label "GPIO1_B1_D"
-		(at 118.11 269.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c76f3909-1ee6-48ad-981a-57a095feea5e")
-	)
 	(label "GPIO3_B3_D"
 		(at 289.56 179.07 180)
 		(effects
@@ -19662,16 +19662,6 @@
 			(justify left bottom)
 		)
 		(uuid "e3f848e5-1ddd-45e2-bc4d-3a612c0fb3ff")
-	)
-	(label "GPIO3_A2_U"
-		(at 153.67 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e546b832-d4b9-445d-9356-502faf0a716a")
 	)
 	(label "GPIO1_A4_D"
 		(at 285.75 48.26 180)
@@ -20110,6 +20100,17 @@
 		)
 		(uuid "72d6dbbf-9ad0-46c6-8d0b-c18299c6957a")
 	)
+	(hierarchical_label "PB2"
+		(shape input)
+		(at 147.32 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a9f32dd-563d-4d7a-af1a-c3545a52c9c5")
+	)
 	(hierarchical_label "v_0.9v"
 		(shape input)
 		(at 278.13 168.91 180)
@@ -20131,6 +20132,17 @@
 			(justify right)
 		)
 		(uuid "7ca422b4-f9e6-4cc9-94aa-f53c93d495c8")
+	)
+	(hierarchical_label "PB1"
+		(shape input)
+		(at 278.13 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8865e5c9-85de-4372-b44f-0ecc98c8e209")
 	)
 	(hierarchical_label "v_3v3"
 		(shape input)

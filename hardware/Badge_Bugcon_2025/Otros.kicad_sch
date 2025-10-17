@@ -1613,6 +1613,17 @@
 		)
 		(uuid "fefc64ad-c17d-4051-8702-ef33d399e610")
 	)
+	(hierarchical_label "PB1"
+		(shape output)
+		(at 157.48 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0db17024-98a0-4da2-8263-3e7cc898af3d")
+	)
 	(hierarchical_label "+3.3v"
 		(shape input)
 		(at 48.26 100.33 180)
@@ -1667,6 +1678,17 @@
 			(justify left)
 		)
 		(uuid "78365897-d54c-47e0-9a95-acada602591f")
+	)
+	(hierarchical_label "PB2"
+		(shape output)
+		(at 156.21 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "92210771-ebc5-4159-982d-6085615bb3f0")
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
@@ -2445,7 +2467,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2716f2e4-42c3-40fd-b4cb-80152bcea4b7")
-		(property "Reference" "D10"
+		(property "Reference" "D7"
 			(at 45.212 107.188 0)
 			(effects
 				(font
@@ -2676,7 +2698,7 @@
 		(instances
 			(project "Badge_Bugcon_2025"
 				(path "/a95785a0-0aa1-454e-b59f-0ac64970ac71/2ee5046e-0e56-46eb-b0bb-bea5e503cbc9"
-					(reference "D10")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -3050,7 +3072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a717f26b-36bd-4d02-ae28-e295540831f0")
-		(property "Reference" "R46"
+		(property "Reference" "R4"
 			(at 39.37 105.41 90)
 			(effects
 				(font
@@ -3273,7 +3295,7 @@
 		(instances
 			(project "Badge_Bugcon_2025"
 				(path "/a95785a0-0aa1-454e-b59f-0ac64970ac71/2ee5046e-0e56-46eb-b0bb-bea5e503cbc9"
-					(reference "R46")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -3353,7 +3375,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8a4bd5d-f934-4b7d-952f-0ffccdeabd25")
-		(property "Reference" "C33"
+		(property "Reference" "C2"
 			(at 54.61 98.552 0)
 			(effects
 				(font
@@ -3578,7 +3600,7 @@
 		(instances
 			(project "Badge_Bugcon_2025"
 				(path "/a95785a0-0aa1-454e-b59f-0ac64970ac71/2ee5046e-0e56-46eb-b0bb-bea5e503cbc9"
-					(reference "C33")
+					(reference "C2")
 					(unit 1)
 				)
 			)

@@ -28,6 +28,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 85.09) (xy 186.69 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44e8ee66-57e6-4429-a9d4-8790a2fe1d9d")
+	)
+	(wire
+		(pts
 			(xy 172.72 72.39) (xy 186.69 72.39)
 		)
 		(stroke
@@ -79,7 +89,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 83.82) (xy 179.07 111.76)
+			(xy 179.07 90.17) (xy 179.07 111.76)
 		)
 		(stroke
 			(width 0)
@@ -90,7 +100,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 83.82) (xy 186.69 83.82)
+			(xy 179.07 90.17) (xy 186.69 90.17)
 		)
 		(stroke
 			(width 0)
@@ -129,6 +139,16 @@
 			(type default)
 		)
 		(uuid "a057609e-ade5-4da0-9af8-f1aa90f47f4b")
+	)
+	(wire
+		(pts
+			(xy 172.72 82.55) (xy 186.69 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a29cf896-8ae9-4162-9cee-481515c9ce5a")
 	)
 	(wire
 		(pts
@@ -192,7 +212,7 @@
 	)
 	(sheet
 		(at 186.69 65.024)
-		(size 19.558 22.098)
+		(size 19.558 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -216,7 +236,7 @@
 			)
 		)
 		(property "Sheetfile" "Otros.kicad_sch"
-			(at 186.69 87.7066 0)
+			(at 186.69 93.5486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -245,7 +265,7 @@
 			)
 		)
 		(pin "+3.3v" input
-			(at 186.69 83.82 180)
+			(at 186.69 90.17 180)
 			(uuid "e711e1c9-5c6e-428f-9c27-7fae1cb11b11")
 			(effects
 				(font
@@ -257,6 +277,26 @@
 		(pin "DIN_IR" input
 			(at 186.69 77.47 180)
 			(uuid "05445b15-6e8d-4138-8516-e9bfb6b31ffb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PB1" output
+			(at 186.69 82.55 180)
+			(uuid "aec85b38-5b25-4fd9-af9a-9e5e292cb007")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PB2" output
+			(at 186.69 85.09 180)
+			(uuid "60c874e9-9bab-4bc8-9ab1-8160a82056ad")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -626,6 +666,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "PB1" input
+			(at 172.72 82.55 0)
+			(uuid "c97d8877-3e83-4e38-b2d4-8bbbf003a33c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PB2" input
+			(at 172.72 85.09 0)
+			(uuid "54a777dc-fc41-4742-a69a-753a8f5d6416")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
