@@ -12402,7 +12402,7 @@
 				)
 			)
 		)
-		(property "Value" "On"
+		(property "Value" "USB Selector"
 			(at 72.39 100.4824 0)
 			(effects
 				(font

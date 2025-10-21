@@ -2197,7 +2197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205161616_E-Switch-TL3342F450QG_C2886897.pdf"
+		(property "Datasheet" ""
 			(at 163.83 58.42 0)
 			(effects
 				(font
@@ -5076,7 +5076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205161616_E-Switch-TL3342F450QG_C2886897.pdf"
+		(property "Datasheet" ""
 			(at 165.1 39.37 0)
 			(effects
 				(font

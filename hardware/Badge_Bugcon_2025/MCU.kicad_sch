@@ -31766,7 +31766,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:TS1088R02026"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
 			(at 17.78 181.61 0)
 			(effects
 				(font
@@ -31849,7 +31849,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C455281"
+		(property "LCSC#" "C318889"
 			(at 22.86 181.61 0)
 			(effects
 				(font
@@ -35287,7 +35287,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:TS1088R02026"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
 			(at 52.07 182.88 0)
 			(effects
 				(font
@@ -35370,7 +35370,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C455281"
+		(property "LCSC#" "C318889"
 			(at 57.15 182.88 0)
 			(effects
 				(font
