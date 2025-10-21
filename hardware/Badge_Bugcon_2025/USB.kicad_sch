@@ -3113,37 +3113,30 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Interface_USB:USB3740B-AI9"
+		(symbol "Interface_USB:FSUSB30MUX"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -6.35 8.89 0)
+			(property "Reference" "U9"
+				(at 2.1433 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "USB3740B-AI9"
-				(at 10.16 8.89 0)
+			(property "Value" "FSUSB30MUX"
+				(at 2.1433 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 30.48 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/00001725D.pdf"
-				(at 0 -2.54 0)
+			(property "Footprint" "Package_SO:MSOP-10_3x3mm_P0.5mm"
+				(at 0 21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3151,7 +3144,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB 2.0 Switch with ESD Protection, UQFN-10 Pitch 0.5mm"
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsusb30-d.pdf"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Low-Power, Two-Port, High-Speed, USB2.0 (480Mbps) Switch, MSOP-10"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3169,7 +3171,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "UQFN*1.3x1.8mm?P0.4mm* UQFN*1.6x2.1mm?P0.5mm*"
+			(property "ki_fp_filters" "MSOP*3x3mm*P0.5mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3178,10 +3180,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB3740B-AI9_0_1"
+			(symbol "FSUSB30MUX_0_1"
 				(rectangle
-					(start 7.62 7.62)
-					(end -7.62 -7.62)
+					(start -10.16 7.62)
+					(end 10.16 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3191,11 +3193,65 @@
 					)
 				)
 			)
-			(symbol "USB3740B-AI9_1_1"
+			(symbol "FSUSB30MUX_1_1"
 				(pin bidirectional line
-					(at -10.16 5.08 0)
+					(at -12.7 5.08 0)
 					(length 2.54)
-					(name "DP"
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "~{OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3210,10 +3266,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -10.16 2.54 0)
+				(pin power_in line
+					(at 0 10.16 270)
 					(length 2.54)
-					(name "DM"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3221,60 +3277,6 @@
 						)
 					)
 					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "OE_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3292,7 +3294,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3301,16 +3303,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 10.16 5.08 180)
+					(at 12.7 5.08 180)
 					(length 2.54)
-					(name "DP_2"
+					(name "HSD1+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3319,9 +3321,27 @@
 					)
 				)
 				(pin bidirectional line
-					(at 10.16 2.54 180)
+					(at 12.7 2.54 180)
 					(length 2.54)
-					(name "DM_2"
+					(name "HSD1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "HSD2+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3337,34 +3357,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 10.16 -2.54 180)
+					(at 12.7 -5.08 180)
 					(length 2.54)
-					(name "DP_1"
+					(name "HSD2-"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "DM_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5639,7 +5641,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 110.49) (xy 25.4 110.49)
+			(xy 21.59 109.22) (xy 25.4 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5649,7 +5651,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 102.87) (xy 49.53 102.87)
+			(xy 50.8 101.6) (xy 54.61 101.6)
 		)
 		(stroke
 			(width 0)
@@ -5679,7 +5681,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 110.49) (xy 45.72 110.49)
+			(xy 57.15 109.22) (xy 50.8 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5759,7 +5761,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 105.41) (xy 45.72 105.41)
+			(xy 54.61 104.14) (xy 50.8 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6229,7 +6231,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 110.49) (xy 52.07 116.84)
+			(xy 57.15 109.22) (xy 57.15 115.57)
 		)
 		(stroke
 			(width 0)
@@ -6339,7 +6341,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 102.87) (xy 25.4 102.87)
+			(xy 21.59 101.6) (xy 25.4 101.6)
 		)
 		(stroke
 			(width 0)
@@ -6459,7 +6461,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 105.41) (xy 25.4 105.41)
+			(xy 21.59 104.14) (xy 25.4 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6499,7 +6501,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 96.52) (xy 35.56 97.79)
+			(xy 38.1 95.25) (xy 38.1 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6669,7 +6671,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 113.03) (xy 45.72 113.03)
+			(xy 53.34 111.76) (xy 50.8 111.76)
 		)
 		(stroke
 			(width 0)
@@ -6869,7 +6871,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 113.03) (xy 25.4 113.03)
+			(xy 21.59 111.76) (xy 25.4 111.76)
 		)
 		(stroke
 			(width 0)
@@ -7269,7 +7271,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 119.38) (xy 35.56 118.11)
+			(xy 38.1 118.11) (xy 38.1 116.84)
 		)
 		(stroke
 			(width 0)
@@ -7318,7 +7320,7 @@
 		(uuid "0453c9e0-da92-4ce7-90fd-1e368af05e58")
 	)
 	(label "2_DN"
-		(at 21.59 105.41 180)
+		(at 21.59 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7408,7 +7410,7 @@
 		(uuid "6aa23d5f-db65-4e87-a7ae-3dbc2f2d44d9")
 	)
 	(label "1_DP"
-		(at 21.59 110.49 180)
+		(at 21.59 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7418,7 +7420,7 @@
 		(uuid "6f50fe68-c1f5-4ebc-a58d-060a011b23b0")
 	)
 	(label "2_DP"
-		(at 21.59 102.87 180)
+		(at 21.59 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7428,7 +7430,7 @@
 		(uuid "71de8640-33f7-4514-a94f-f4d6191a00c2")
 	)
 	(label "1_DN"
-		(at 21.59 113.03 180)
+		(at 21.59 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7448,7 +7450,7 @@
 		(uuid "80f29234-4024-40fe-ba98-1d45cf6a7d0a")
 	)
 	(label "S"
-		(at 48.26 113.03 0)
+		(at 53.34 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7539,7 +7541,7 @@
 	)
 	(hierarchical_label "D-"
 		(shape bidirectional)
-		(at 49.53 105.41 0)
+		(at 54.61 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7583,7 +7585,7 @@
 	)
 	(hierarchical_label "D+"
 		(shape bidirectional)
-		(at 49.53 102.87 0)
+		(at 54.61 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9020,7 +9022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.mx/datasheet/2/60/js-1841892.pdf"
+		(property "Datasheet" ""
 			(at 256.54 54.61 0)
 			(effects
 				(font
@@ -9046,7 +9048,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "SK12D07VG4"
+		(property "manf#" ""
 			(at 256.54 54.61 0)
 			(effects
 				(font
@@ -9340,7 +9342,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.07 116.84 0)
+		(at 57.15 115.57 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9349,7 +9351,7 @@
 		(dnp no)
 		(uuid "284ca458-7a41-4e84-b7a4-482a7f922534")
 		(property "Reference" "#PWR082"
-			(at 52.07 123.19 0)
+			(at 57.15 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9358,7 +9360,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 51.943 121.2342 0)
+			(at 57.023 119.9642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9366,7 +9368,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 116.84 0)
+			(at 57.15 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9375,7 +9377,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 116.84 0)
+			(at 57.15 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9384,7 +9386,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.07 116.84 0)
+			(at 57.15 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10019,6 +10021,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Interface_USB:FSUSB30MUX")
+		(at 38.1 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3604c1e3-17ca-4a85-8f2f-04dd7744780d")
+		(property "Reference" "U1"
+			(at 35.9567 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FSUSB30MUX"
+			(at 35.9567 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Footprints:IC_FSUSB42UMX"
+			(at 38.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Two-Port, High-Speed, USB2.0 (480Mbps) Switch, MSOP-10"
+			(at 38.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C42370490"
+			(at 38.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "28c9c333-2c3f-48b5-ae4f-627300af3c7d")
+		)
+		(pin "6"
+			(uuid "90ff56f1-45cc-42e8-bfef-5432bd12d259")
+		)
+		(pin "4"
+			(uuid "c7588aea-093d-4977-b7e1-fec42a731c9c")
+		)
+		(pin "1"
+			(uuid "e1340d1d-9e7f-4d61-b681-82304ce046f0")
+		)
+		(pin "9"
+			(uuid "c044f037-bf82-49a6-8ba3-f21b09ce0f2e")
+		)
+		(pin "5"
+			(uuid "df66996b-5b52-4720-8663-886b19f00d41")
+		)
+		(pin "2"
+			(uuid "d1326225-f7d8-40ef-a58f-593b95242660")
+		)
+		(pin "10"
+			(uuid "8182d1ba-9394-422c-81ef-b125b67b0e7a")
+		)
+		(pin "8"
+			(uuid "409a9210-b20d-4e65-a1f3-9b1ec7b57e5a")
+		)
+		(pin "3"
+			(uuid "da664fde-9db0-4d28-84c6-84e24c444604")
+		)
+		(instances
+			(project ""
+				(path "/a95785a0-0aa1-454e-b59f-0ac64970ac71/a5c26cac-72fa-4752-a660-9cd751934916"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 135.89 50.8 0)
 		(unit 1)
@@ -10566,272 +10671,6 @@
 			(project "Badge_Bugcon_2025"
 				(path "/a95785a0-0aa1-454e-b59f-0ac64970ac71/a5c26cac-72fa-4752-a660-9cd751934916"
 					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Interface_USB:USB3740B-AI9")
-		(at 35.56 107.95 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e24d030-eac6-4bc0-a604-16350bb7f445")
-		(property "Reference" "U1"
-			(at 33.4167 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "USB3740B-AI9"
-			(at 33.4167 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:UQFN-10_1.3x1.8mm_P0.4mm"
-			(at 5.08 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C626691.pdf"
-			(at 35.56 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB 2.0 Switch with ESD Protection, UQFN-10 Pitch 0.5mm"
-			(at 35.56 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C626691"
-			(at 35.56 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 35.56 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 35.56 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 35.56 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 35.56 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 35.56 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 35.56 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 35.56 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 35.56 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 35.56 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 35.56 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 35.56 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 35.56 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 35.56 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 35.56 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 35.56 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 35.56 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" ""
-			(at 35.56 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacter Number" ""
-			(at 35.56 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "acafe932-8b1e-45e6-a772-737aab1b4b5e")
-		)
-		(pin "6"
-			(uuid "703ae29d-60e3-4e37-9d86-d3511f697dab")
-		)
-		(pin "5"
-			(uuid "d0d594c0-cd8c-4859-89ac-8f963a48d272")
-		)
-		(pin "9"
-			(uuid "4da6745e-153f-400b-8b55-b1425cacf1a2")
-		)
-		(pin "3"
-			(uuid "a0bd2b5e-36ad-4269-9a9c-1c25854e41ca")
-		)
-		(pin "4"
-			(uuid "17f6a028-b949-435e-b47b-e987f73c841c")
-		)
-		(pin "10"
-			(uuid "bc6a1b61-e575-4213-9812-b8664022abe3")
-		)
-		(pin "8"
-			(uuid "a260915f-4ccd-4121-bdb0-6a0378779b5a")
-		)
-		(pin "7"
-			(uuid "a6a6d407-96a9-4737-be00-578109e27ade")
-		)
-		(pin "1"
-			(uuid "992f1b37-5863-4e09-a8e1-fa961c303723")
-		)
-		(instances
-			(project ""
-				(path "/a95785a0-0aa1-454e-b59f-0ac64970ac71/a5c26cac-72fa-4752-a660-9cd751934916"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -12571,7 +12410,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:MSK12C02"
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q"
 			(at 72.39 105.41 0)
 			(effects
 				(font
@@ -12598,7 +12437,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C431540"
+		(property "LCSC#" "C393937 "
 			(at 72.39 105.41 0)
 			(effects
 				(font
@@ -15446,7 +15285,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 119.38 0)
+		(at 38.1 118.11 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15455,7 +15294,7 @@
 		(dnp no)
 		(uuid "a8f993f8-b0d0-412a-96ed-3e2ee0dcc894")
 		(property "Reference" "#PWR080"
-			(at 35.56 125.73 0)
+			(at 38.1 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15464,7 +15303,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.433 123.7742 0)
+			(at 37.973 122.5042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15472,7 +15311,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 119.38 0)
+			(at 38.1 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15481,7 +15320,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 119.38 0)
+			(at 38.1 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15490,7 +15329,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 119.38 0)
+			(at 38.1 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17524,7 +17363,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 35.56 96.52 0)
+		(at 38.1 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17533,7 +17372,7 @@
 		(fields_autoplaced yes)
 		(uuid "c432c6a1-32f0-478f-86a0-ee9f10addd3d")
 		(property "Reference" "#PWR081"
-			(at 35.56 100.33 0)
+			(at 38.1 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17542,7 +17381,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 35.56 91.44 0)
+			(at 38.1 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17550,7 +17389,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 96.52 0)
+			(at 38.1 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17559,7 +17398,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 96.52 0)
+			(at 38.1 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17568,7 +17407,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 35.56 96.52 0)
+			(at 38.1 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
