@@ -66,7 +66,7 @@ El procesador RV1106 ofrece las siguientes interfaces:
 - **USB**: Puerto USB con Hub integrado para múltiples dispositivos
 
 ### Red
-- **Ethernet**: Puerto Ethernet para conectividad cableada
+- **Ethernet**: GPIOs para Puerto Ethernet para conectividad cableada
 
 ### Multimedia e Imagen
 - **MIPI CSI**: Interfaz para cámaras y sensores de imagen
