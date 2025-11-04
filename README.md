@@ -76,10 +76,14 @@ El procesador RV1106 ofrece las siguientes interfaces:
 - **GPIOs**: Múltiples pines de propósito general
 - **PWM**: Canales PWM para control de LEDs y motores
 
+
+# Getting Started
+Como iniciar a trabajar con la tarjeta o si quieres desarrollar tu propia imagen
+
 ## Pin Definition
 TODO
 
-## Image Flashing
+## Hola Mundo
 TODO
 
 ## NEOPIXELS
@@ -159,11 +163,17 @@ Once created, run the scrip:
 python3 /root/[name of the scrip].py
 ```
 
+# Image Flashing
+Deseas cargar una nueva imagen o reestablecer tu tarjeta
+
+## Image Flashing
+TODO
 
 ## 📖 Documentación Adicional
 
 - [KiCad Documentation](https://docs.kicad.org/)
 - [RV1106 Datasheet](https://www.rock-chips.com/a/en/products/RV11_Series/2022/0601/1553.html)
+-[Proyecto Basado en LuckFox](https://wiki.luckfox.com/Luckfox-Pico-RV1106)
 
 ## 🤝 Contribuciones
 
