@@ -1,212 +1,204 @@
+# Badge BugCon 2025
 
-# Plantilla para proyectos de ingeniería
+El Badge BugCon 2025 es un dispositivo de hardware abierto diseñado para la comunidad de hackers, desarrolladores y entusiastas de la tecnología. Cuenta con un potente procesador Linux que permite ejecutar aplicaciones personalizadas, y una amplia gama de interfaces para expandir sus capacidades.
 
-Esta plantilla es la base para cualquier proyecto desarrollado en Electronic Cats.
+## 🚀 Características Principales
 
-Automáticamente, se generarán todos los archivos necesarios para la compra de material, fabricación y ensamble.
+### Procesador Principal
+- **RV1106**: Procesador Linux de alto rendimiento
+  - Integra ARM Cortex-A7 y RISC-V MCU
+  - NPU (Neural Processing Unit) integrada
+  - ISP (Image Signal Processor) para procesamiento de imágenes
+  - Soporte completo para sistemas operativos Linux
 
-Así como documentos complementarios para un proyecto completo.
+### Interfaces y Conectividad
+- **GPIOs**: Múltiples pines de propósito general para expansión
+- **MIPI CSI**: Interfaz para cámaras y sensores de imagen
+- **UART**: Comunicación serial asíncrona
+- **SPI**: Bus serie para comunicación con periféricos
+- **I2C**: Bus de comunicación para sensores y displays
+- **USB**: Puerto USB con Hub integrado
+- **Ethernet**: GPIO para Puerto Ethernet para conectividad de red cableada
 
-  
+### Periféricos Integrados
+- **Neopixels**: LEDs WS2812E programables RGB
+- **Batería**: Soporte para batería 18650 con gestión de energía
+- **Buck Converter**: Conversor DC-DC para gestión eficiente de energía
+- **USB-A**: Conector USB-A para dispositivos externos
 
-> Este README.md puede ser utilizado como plantilla para documentación, de esta manera se puede incluir generalidades, recomendaciones y todo lo necesario para entender el proyecto.
+## 📦 Componentes del Proyecto
 
-  
+El proyecto está dividido en dos partes principales:
 
-## ¿Cómo utilizar esta plantilla?
+### 1. Badge Principal (`Badge_Bugcon_2025/`)
+Contiene el diseño principal del badge con:
+- Procesador RV1106G3
+- Pantalla OLED 128x32
+- LEDs Neopixels WS2812E
+- Gestión de energía y batería
+- Interfaces USB
 
-Para comenzar un nuevo proyecto, presiona el botón de "Use this template".
+### 2. Add-on (`Add_On_Bugcon_2025/`)
+Placa de expansión adicional con:
+- Microcontrolador PY32F002AA15M
+- Componentes adicionales para expansión
+- Diseño decorativo personalizado
 
-  
+## 📋 Especificaciones Técnicas
 
-### KiCad
+| Componente | Especificación |
+|------------|----------------|
+| Procesador | RV1106G3 (ARM Cortex-A7 + RISC-V MCU + NPU + ISP) |
+| Sistema Operativo | Linux |
+| LEDs | WS2812E Neopixels |
+| Batería | Soporte 18650 |
+| Interfaces | USB, Ethernet, UART, SPI, I2C, MIPI CSI, GPIOs |
 
-Para esta plantilla, el hardware debe de ser diseñado y/o desarrollado en KiCad 6.
 
-Al término del diseño del proyecto, KiCad deberá de generar los siguientes archivos:
+## 🔌 Interfaces del RV1106
 
-  
+El procesador RV1106 ofrece las siguientes interfaces:
 
-- nombre_del_proyecto.kicad_pro
+### Comunicación
+- **UART**: Para comunicación serial (debug, terminal, etc.)
+- **SPI**: Para comunicación con periféricos de alta velocidad
+- **I2C**: Para sensores, displays y otros dispositivos I2C
+- **USB**: Puerto USB con Hub integrado para múltiples dispositivos
 
-- nombre_de_la_pcb.kicad_pcb
+### Red
+- **Ethernet**: Puerto Ethernet para conectividad cableada
 
-- nombre_del_esquematico.kicad_sch
+### Multimedia e Imagen
+- **MIPI CSI**: Interfaz para cámaras y sensores de imagen
+- **ISP**: Procesador de señal de imagen integrado
 
-  
+### Control
+- **GPIOs**: Múltiples pines de propósito general
+- **PWM**: Canales PWM para control de LEDs y motores
 
-Además de archivos temporales, los cuales Git ignora al momento de cualquier push.
+## Pin Definition
+TODO
 
-[Archivos ignorados](.gitignore)
+## Image Flashing
+TODO
 
-  
+## NEOPIXELS
 
-Estos archivos deberán ser guardados dentro de la carpeta de [hardware](hardware/).
+The RGB LEDs WS2812B and WS2812E-1313 can be controlled using the Python **spidev** module through the SPI interface of the RV1106.  
+It is important to note that SPI is used as an 800 kHz pulse train generator, which is required for the proper operation of the NeoPixel.
 
-  
-
-### Configuración de automatización
-
-Una vez terminado el proyecto, antes de hacer el primer Release, se deberán realizar algunos cambios para la automatización de archivos.
-
-En la carpeta [.github/workflows](.github/workflows/) se encuentra el archivo kicad_kibot.yml, en donde los siguientes campos deberán ser modificados
-
-  
-
-```yaml
-
-# optional - schematic file
-
-schema: 'hardware/Template-KiCAD-Project-CI.kicad_sch'
-
-# optional - pcb file
-
-board: 'hardware/Template-KiCAD-Project-CI.kicad_pcb'
+Once enabled the modules in the configuration interface and flashed the board, the next step will be to create a python scrip in the buildroot environment inside the pcb.
+```
+nano /root/[name of the scrip].py
+```
+It can be something like this:
 
 ```
+#!/usr/bin/env python3
+import spidev, time, threading
 
-Se deberá reemplazar el nombre del archivo "Template-KiCAD-Project-CI" por el nombre del proyecto diseñado.
+SPI_SPEED_HZ = 2400000
+NUM_LEDS = 8
 
-Es importante conservar las extensiones de archivo .kicad_sch y .kicad_pcb.
+def byte_to_spi(byte):
+    spi_bytes = []
+    for i in range(8):
+        if byte & (1 << (7-i)):
+            spi_bytes.append(0b1110)  # '1'
+        else:
+            spi_bytes.append(0b1000)  # '0'
+    return spi_bytes
 
-  
+def color_to_spi(r, g, b):
+    data = []
+    data += byte_to_spi(g)
+    data += byte_to_spi(r)
+    data += byte_to_spi(b)
+    return data
 
-### Activar/desactivar DRC y ERC
+def make_buffer(r, g, b):
+    buf = []
+    for _ in range(NUM_LEDS):
+        buf += color_to_spi(r, g, b)
+    return buf
 
-Las opciones de DRC y ERC están siempre activas predeterminadamente, para desactivarlas se deberá de eliminar las siguientes líneas del archivo [electroniccats_sch.kibot.yaml](hardware/electroniccats_sch.kibot.yaml).
+def run_spi(bus, device, colors):
+    spi = spidev.SpiDev()
+    spi.open(bus, device)
+    spi.max_speed_hz = SPI_SPEED_HZ
 
-```yaml
+    try:
+        while True:
+            for (r,g,b) in colors:
+                buffer = make_buffer(r,g,b)
+                spi.xfer2(buffer)
+                time.sleep(1)
+    except KeyboardInterrupt:
+        spi.xfer2(make_buffer(0,0,0))
+        spi.close()
 
-run_erc: true
+def main():
+    colors = [(255,0,255), (0,255,0), (0,0,255)]  # rosa, verde, azul
 
-run_drc: true
+    t0 = threading.Thread(target=run_spi, args=(0,0,colors))
+    t1 = threading.Thread(target=run_spi, args=(1,0,colors))
+
+    t0.start()
+    t1.start()
+
+    t0.join()
+    t1.join()
+
+if __name__ == "__main__":
+    main()
 
 ```
-
-Esta acción solo correrá cada vez que se haga un release.
-
-Si, además, se busca desactivar el DRC y el ERC cuando se haga push o pull request, es necesario eliminar el archivo [action_drc.yml](.github/workflows/action_drc.yml).
-
-## Creación de Release
-
-Al terminar el proyecto y su revisión, se publicará el primer Release.
-
-Para crear un nuevo Release, presiona el botón de "Create a new release".
-
-Una vez creado el Release, podrás ver la creación de los archivos en la sección de Actions.
-
-Al terminar, los archivos serán generados en el mismo release.
-
-## Elementos para mejorar tu `Readme.md`
-
-Los archivos `Readme.md` se crean con el propósito de hacer visualmente agradable un repositorio para los usuarios que visiten nuestro proyecto, puedes utilizar algunos de los siguientes elementos.
-
-### Código
-Quoting code, como lo dice su nombre, se utiliza para añadir código y que se separe del texto plano. Debes de agregar el codigo dentro de ` ``` ```` ` , ademas si agregas el nombre del lenguaje inmediatamente despues de las primeras ` ``` ` las funciones se pondran de color diferenciandolas del resto del codigo. Aquí algunos ejemplos. Puedes encontrar los lenguajes aquí:
-https://github.com/github/linguist/blob/master/vendor/README.md
-```sh
-192.168.0.1
-cd Downloads
+The scrip controls both the WS2812B and WS2812B-1313 LEDs through **spi0** and **spi1** , cycling between four different colors (blue, red, green, and pink) every second.
+Once created, run the scrip:
 ```
-  ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
+python3 /root/[name of the scrip].py
 ```
 
-### Hipervínculos
 
-Usa hipervínculos o links para redirigir a los usuarios a páginas donde puedan conocer más acerca de algún tema o concepto en concreto, hay dos formas de hacer esto:
+## 📖 Documentación Adicional
 
-- [Agregando el link en seguida](https://github.com/ElectronicCats/Template-Project-KiCAD-CI) - Con esta forma deberas de seguir el siguiente formato `[Texto](www.url.com)`. El texto que se mostrará en la página principal del Readme será el que se encuentra dentro de los corchetes y el link de la página deberá de ir de manera inmediata a los corchetes dentro de paréntesis.
+- [KiCad Documentation](https://docs.kicad.org/)
+- [RV1106 Datasheet](https://www.rock-chips.com/a/en/products/RV11_Series/2022/0601/1553.html)
 
-- [Agregando el link como referencia] - Al igual que otro tipo de formatos de referencia en este agregas el texto que se mostrará en la página principal del repositorio dentro de corchetes `[Texto]` y al final de tu archivo (de preferencia) agregas la referencia de la siguiente manera: `[Texto]:<www.url.com>`, este no se mostrara en el archivo por lo que es una buena forma de mantener un formato y un orden.  
+## 🤝 Contribuciones
 
-### Tablas
+Este es un proyecto de hardware abierto. Las contribuciones son bienvenidas:
 
-Las tablas que todos conocemos con filas y columnas. El formato para estas tablas se basa en el uso del símbolo `|`, entonces debes de encerrar las palabras como esto: `|Columna1|` (sin la posibilidad de dos | seguidos), para agregar más columnas basta con dar un espacio y repetir el formato, sin embargo, para añadir filas debes de hacer un salto de línea y repetir el formato de columnas, dejándonos una tabla como la siguiente:
+1. Fork el proyecto
+2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
+3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
 
-|Columna1|Columna2|
-|-|-|
-|Fila 1 Columna 1|Fila 2 Columna 2|
+## 📝 Licencia
 
-Nota: Si agregas en la segunda fila guiones (-) harás que la primera fila se convierta en el encabezado de la tabla.
+Este proyecto es de hardware abierto. Consulta los archivos de licencia para más detalles.
 
-### Imágenes
-Puedes añadir imágenes siempre y cuando estas estén en Internet, si quieres agregar una nueva imagen tambien la puedes arrastrar y soltar en el cuadro de texto (en caso de que edites tu `Readme.md`) directo desde GitHub, esto hará que se guarde tu imagen en una carpeta oculta dentro de tu repositorio.
-El formato para agregar imagenes es: `![](www.urlimagen.com)`
-Si requieres que al hacer click en tu imagen se redirija a otra pagina usa el siguiente formado `[![](www.urldeimagen.com)](https://www.urlaredirigir.com)`
-Es importante agregar `https://` , si no te enviara a una página de GitHub que probablemente no exista.
+## 🏢 Electronic Cats
 
-[![](https://electroniccats.com/wp-content/uploads/2018/01/fav.png)](https://www.electroniccats.com)
+Desarrollado con ❤️ por [Electronic Cats](https://www.electroniccats.com/)
 
-### Referencias
-Es posible que en la wiki hayas visto numeritos como este --->[^1], pero que significan?
-
-No son más que referencias que puedes hacer para hacer saltos de información e ir directo a la referencia haciendo click en el pequeño número.
-[^1]: Soy la referencia :))))
-
-### Emojis :trollface: :shipit:
-Solo escribe el código del emoji así: `:EMOJICODE:`.
-Aqui la lista de los [EMOJICODEs](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#github-custom-emoji)
-
-### Listas con checkbox
-Usa este formato:
-```
-- [x] GFM task list 1
-- [x] GFM task list 2
-- [ ] GFM task list 3
-    - [ ] GFM task list 3-1
-    - [ ] GFM task list 3-2
-    - [ ] GFM task list 3-3
-- [ ] GFM task list 4
-    - [ ] GFM task list 4-1
-    - [ ] GFM task list 4-2
-  ```
-  Y tendras algo asi: 
-- [x] GFM task list 1
-- [x] GFM task list 2
-- [ ] GFM task list 3
-    - [ ] GFM task list 3-1
-    - [ ] GFM task list 3-2
-    - [ ] GFM task list 3-3
-- [ ] GFM task list 4
-    - [ ] GFM task list 4-1
-    - [ ] GFM task list 4-2
-
-### Otros Elementos
-
-![](https://img.shields.io/github/stars/ElectronicCats/Template-Project-KiCAD-CI?style=for-the-badge)
-![](https://img.shields.io/github/forks/ElectronicCats/Template-Project-KiCAD-CI?color=green&style=for-the-badge)
-
-Este tipo de indicadores nos pueden ayudar a identificar diferente información relacionada al proyecto, solo los debes de agregar como una imagen y en el URL  pegar el link correspondiente. 
-Los ejemplos de arriba fueron generados con la pagina: Shields.io , solo debes de asegurarte que son para GitHub y que tienen el formato `MarkDown`
-
-- Badges,
-En caso de que necesites algun referente a alguna empresa o plataforma puedes usar esta pagina: https://dev.to/envoy_/150-badges-for-github-pnk
-
-[![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/electroniccats/?originalSubdomain=mx)
-
-- Estadísticas
-Utilizando el projecto de este usuario puedes agregar estadísticas del proyecto como estas:
-
-![This repository Stats](https://github-readme-stats.vercel.app/api/pin?username=ElectronicCats&repo=Template-Project-KiCAD-CI&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
-
-https://github.com/anuraghazra/github-readme-stats
-
-**NOTA**:Son pocas las tarjetas que puedes utilizar con el proyecto de este usuario para repositorios ya que son más dirigidos a perfiles de GitHub.
- 
-## Maintainer
-
-<a
-href="https://github.com/sponsors/ElectronicCats">
-
-<img  src="https://electroniccats.com/wp-content/uploads/2020/07/Badge_GHS.png"  height="104" />
-
+<a href="https://github.com/sponsors/ElectronicCats">
+<img src="https://electroniccats.com/wp-content/uploads/2020/07/Badge_GHS.png" height="104" />
 </a>
 
-Electronic Cats invests time and resources providing this open source design, please support Electronic Cats and open-source hardware by purchasing products from Electronic Cats!
+Electronic Cats invierte tiempo y recursos proporcionando este diseño de hardware abierto. ¡Por favor apoya a Electronic Cats y al hardware abierto comprando productos de Electronic Cats!
 
-[Agregando el link como referencia]: <https://github.com/ElectronicCats/Template-Project-KiCAD-CI>
+## 📞 Contacto y Soporte
+
+- **Website**: [https://www.electroniccats.com/](https://www.electroniccats.com/)
+- **GitHub**: [ElectronicCats](https://github.com/ElectronicCats)
+- **Issues**: Utiliza la sección de Issues de GitHub para reportar problemas o sugerir mejoras
+
+## 🙏 Agradecimientos
+
+Gracias a toda la comunidad de hardware abierto y a todos los que hacen posible proyectos como este.
+
+---
+
+**Nota**: Este badge está diseñado para BugCon 2025. Para más información sobre el evento, visita la página oficial de BugCon.
