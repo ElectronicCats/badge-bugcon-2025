@@ -81,9 +81,11 @@ El procesador RV1106 ofrece las siguientes interfaces:
 
 The Bugcon 2025 badge is built on the Luckfox Pico Pro Max hardware and SDK. For general information, please refer to the official Luckfox Wiki. The badge features the RV1106G3, a low-power, highly integrated microprocessor from Rockchip, based on a 32-bit RISC-V CPU optimized for audio and video encoding/decoding applications. 
 
-The badge supports multiple interfaces, including GPIO, UART, SPI, I2C, USB, etc., facilitating rapid development and debugging for developers.
+The badge supports multiple interfaces, including GPIO, UART, SPI, I2C, USB, etc., facilitating rapid development and debugging for developers.Please note that communication with the badge will take place through the serial interface, specifically using the pins indicated in the image.
 
-In the diagrams below, you can see the pinout for the different protocols available on the badge. It is important to note that only bus 0 of the SPI, I²C, and UART protocols is active by default. To enable any other protocol, please refer to the pin activation section.
+![](./hardware/readme_image/serial.png)
+
+In the diagrams below, you can see the pinout for the different protocols available on the badge. It is important to note that only bus 0 of the SPI, I²C, and UART protocols is active by default. To enable any other protocol, please refer to the device trees source.
 
 ![](./hardware/readme_image/general_protocol.png)
 
@@ -100,14 +102,62 @@ The board also is compatible with 10/100 Mbps ethernet. Please notice that you n
 
 ![](./hardware/readme_image/ethernet.png)
 
+Finally, the board also allows external analog microphones to be connected to it through codec input. The CPU can also output PCM (Pulse-Code Modulation) digital audio signals locally, which can be converted to analog signals for playback. It is important to note that the analog signal used for playback requires its own amplifier to prevent current-related issues.
 
+![](./hardware/readme_image/codec.png)
 
+For more information, please refer to the audio luckfox wiki
 
-## Pin Definition
-TODO
+- [Audio](https://wiki.luckfox.com/Luckfox-Pico-Pro-Max/Flash-image)
+
+IMPORTANT: Please do not use the FSPI pins. Those are connected directly to the flash memory. Any change in its signal may cause the badge to malfunction.
+Please notice that 
+
+## Device tree source 
+
+The Device Tree is used in the Linux kernel to describe a board’s hardware.
+It is written in text files with the extensions .dts (Device Tree Source) and .dtsi (Device Tree Source Include).
+The .dts file defines the specific hardware for a board, while the .dtsi file contains shared or common configurations used by multiple .dts files. 
+
+You can use the DTS to enable, desable and/or configure the different peripherals that the board can offer
+The device tree files are located in the following directory of the SDK:
+
+```
+ luckfox-pico SDK/sysdrv/source/kernel/arch/arm/boot/dts
+```
+For more information, please refer to the DTS luckfox wiki
+
+- [DTS](https://wiki.luckfox.com/Luckfox-Pico-Ultra/Device-Tree)
 
 ## Hola Mundo
-TODO
+The badge already includes Python 3.11.6, so you can run Python scripts directly from the terminal without any additional setup.
+
+This short guide shows how to create and run a simple “Hello World” program.
+
+1. In the terminal, create a new file 
+
+```
+nano name.py
+```
+or
+```
+vi name.py
+```
+
+Add this line:
+```
+print("Hello world!")
+```
+2. Execute the file
+
+```
+python3 hello.py
+```
+
+you should see
+```
+Hello world!
+``` 
 
 ## NEOPIXELS
 
