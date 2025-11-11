@@ -78,7 +78,30 @@ El procesador RV1106 ofrece las siguientes interfaces:
 
 
 # Getting Started
-Como iniciar a trabajar con la tarjeta o si quieres desarrollar tu propia imagen
+
+The Bugcon 2025 badge is built on the Luckfox Pico Pro Max hardware and SDK. For general information, please refer to the official Luckfox Wiki. The badge features the RV1106G3, a low-power, highly integrated microprocessor from Rockchip, based on a 32-bit RISC-V CPU optimized for audio and video encoding/decoding applications. 
+
+The badge supports multiple interfaces, including GPIO, UART, SPI, I2C, USB, etc., facilitating rapid development and debugging for developers.
+
+In the diagrams below, you can see the pinout for the different protocols available on the badge. It is important to note that only bus 0 of the SPI, I²C, and UART protocols is active by default. To enable any other protocol, please refer to the pin activation section.
+
+![](./hardware/readme_image/general_protocol.png)
+
+![](./hardware/readme_image/general_protocol_2.png)
+
+![](./hardware/readme_image/general_protocol_3.png)
+
+The pin numbers corresponding to GPIOs are marked in the pinout diagram. You could use it to configure a pin as a gpio.
+For more information, please refer to the gpio luckfox wiki.
+
+- [GPIO](https://wiki.luckfox.com/Luckfox-Pico-Pro-Max/Flash-image)
+
+The board also is compatible with 10/100 Mbps ethernet. Please notice that you need to add the ethernet transformer and the common-mode choker for the proper function of the device.
+
+![](./hardware/readme_image/ethernet.png)
+
+
+
 
 ## Pin Definition
 TODO
@@ -164,16 +187,31 @@ python3 /root/[name of the scrip].py
 ```
 
 # Image Flashing
-Deseas cargar una nueva imagen o reestablecer tu tarjeta
 
-## Image Flashing
-TODO
+In this README, we will refer to the flashing method for Linux-based operating systems. For Windows or macOS, please refer to the official Luckfox flashing page:
+
+- [Flashing image](https://wiki.luckfox.com/Luckfox-Pico-Pro-Max/Flash-image)
+
+1.Press and hold the BOOT button while connecting the board to the host PC to enter flash mode.
+
+2. After running the lsusb, you should see the device recognition results as below: 
+
+```
+Bus 003 Device 005: ID 2207:110c Fuzhou Rockchip Electronics Company 
+```
+
+3. Once you have the board in BOOt mode proceed to flash the board. You can do that from the main carpet in luckfox (The one who has the rkflash.sh file).
+
+```
+sudo ./rkflash.sh update
+```
+
 
 ## 📖 Documentación Adicional
 
 - [KiCad Documentation](https://docs.kicad.org/)
 - [RV1106 Datasheet](https://www.rock-chips.com/a/en/products/RV11_Series/2022/0601/1553.html)
--[Proyecto Basado en LuckFox](https://wiki.luckfox.com/Luckfox-Pico-RV1106)
+- [Proyecto Basado en LuckFox](https://wiki.luckfox.com/Luckfox-Pico-RV1106)
 
 ## 🤝 Contribuciones
 
