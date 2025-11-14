@@ -1,80 +1,80 @@
 # Badge BugCon 2025
 
-El Badge BugCon 2025 es un dispositivo de hardware abierto diseñado para la comunidad de hackers, desarrolladores y entusiastas de la tecnología. Cuenta con un potente procesador Linux que permite ejecutar aplicaciones personalizadas, y una amplia gama de interfaces para expandir sus capacidades.
+The BugCon 2025 Badge is an open-hardware device designed for the hacker, developer, and technology enthusiast community. It features a powerful Linux processor capable of running custom applications, along with a wide range of interfaces to extend its functionality.
 
-## 🚀 Características Principales
+## 🚀 Main Features
 
-### Procesador Principal
-- **RV1106**: Procesador Linux de alto rendimiento
-  - Integra ARM Cortex-A7 y RISC-V MCU
-  - NPU (Neural Processing Unit) integrada
-  - ISP (Image Signal Processor) para procesamiento de imágenes
-  - Soporte completo para sistemas operativos Linux
+### Main Processor
+- **RV1106**: High-performance Linux processor
+  - ARM Cortex-A7 + RISC-V MCU
+  - Integrated NPU (Neural Processing Unit)
+  - Integrated ISP (Image Signal Processor)
+  - Full support for Linux operating systems
 
-### Interfaces y Conectividad
-- **GPIOs**: Múltiples pines de propósito general para expansión
-- **MIPI CSI**: Interfaz para cámaras y sensores de imagen
-- **UART**: Comunicación serial asíncrona
-- **SPI**: Bus serie para comunicación con periféricos
-- **I2C**: Bus de comunicación para sensores y displays
-- **USB**: Puerto USB con Hub integrado
-- **Ethernet**: GPIO para Puerto Ethernet para conectividad de red cableada
+### Interfaces & Connectivity
+- **GPIOs**: Multiple general-purpose pins
+- **MIPI CSI**: Interface for cameras and image sensors
+- **UART**: Asynchronous serial communication
+- **SPI**: High-speed peripheral communication
+- **I2C**: Communication bus for sensors and displays
+- **USB**: USB port with integrated hub
+- **Ethernet**: GPIO-based Ethernet port for wired networking
 
-### Periféricos Integrados
-- **Neopixels**: LEDs WS2812E programables RGB
-- **Batería**: Soporte para batería 18650 con gestión de energía
-- **Buck Converter**: Conversor DC-DC para gestión eficiente de energía
-- **USB-A**: Conector USB-A para dispositivos externos
+### Integrated Peripherals
+- **Neopixels**: WS2812E RGB programmable LEDs
+- **Batería**: Support for 18650 battery with power management
+- **Buck Converter**: Efficient DC-DC regulation
+- **USB-A**: External device support
 
-## 📦 Componentes del Proyecto
+## 📦 Project Components
 
-El proyecto está dividido en dos partes principales:
+The project is divided into two main directories:
 
-### 1. Badge Principal (`Badge_Bugcon_2025/`)
-Contiene el diseño principal del badge con:
-- Procesador RV1106G3
-- Pantalla OLED 128x32
-- LEDs Neopixels WS2812E
-- Gestión de energía y batería
-- Interfaces USB
+### 1. Main Badge (`Badge_Bugcon_2025/`)
+Includes the core design:
+- RV1106G3 processor
+- 128×32 OLED display
+- WS2812E Neopixel LEDs
+- Power and battery management
+- USB interfaces
 
 ### 2. Add-on (`Add_On_Bugcon_2025/`)
-Placa de expansión adicional con:
-- Microcontrolador PY32F002AA15M
-- Componentes adicionales para expansión
-- Diseño decorativo personalizado
+Expansion board including:
+- PY32F002AA15M microcontroller
+- Additional components for extended capabilities
+- Custom decorative layout
 
-## 📋 Especificaciones Técnicas
+## 📋 Technical Specifications
 
-| Componente | Especificación |
+| Component | Specification |
 |------------|----------------|
-| Procesador | RV1106G3 (ARM Cortex-A7 + RISC-V MCU + NPU + ISP) |
-| Sistema Operativo | Linux |
+| Processor | RV1106G3 (ARM Cortex-A7 + RISC-V MCU + NPU + ISP) |
+| Operating System | Linux |
 | LEDs | WS2812E Neopixels |
-| Batería | Soporte 18650 |
+| Battery | Soporte 18650 |
 | Interfaces | USB, Ethernet, UART, SPI, I2C, MIPI CSI, GPIOs |
 
 
-## 🔌 Interfaces del RV1106
+## 🔌 RV1106 Interfaces
 
 El procesador RV1106 ofrece las siguientes interfaces:
 
 ### Comunicación
-- **UART**: Para comunicación serial (debug, terminal, etc.)
-- **SPI**: Para comunicación con periféricos de alta velocidad
-- **I2C**: Para sensores, displays y otros dispositivos I2C
-- **USB**: Puerto USB con Hub integrado para múltiples dispositivos
+- **UART**: Serial communication (debug/terminal)
+- **SPI**: High-speed peripheral interface
+- **I2C**: For sensors, displays, and other I2C devices
+- **USB**: Integrated USB hub
 
-### Red
-- **Ethernet**: GPIOs para Puerto Ethernet para conectividad cableada
+### Networking
+- **Ethernet**: Wired connectivity via GPIO-based interface
 
-### Multimedia e Imagen
-- **MIPI CSI**: Interfaz para cámaras y sensores de imagen
-- **ISP**: Procesador de señal de imagen integrado
+### Multimedia & Imaging
+- **MIPI CSI**: Camera and image sensor interface
+- **ISP**: Integrated image signal processor
 
 ### Control
-- **GPIOs**: Múltiples pines de propósito general
-- **PWM**: Canales PWM para control de LEDs y motores
+- **GPIOs**: General-purpose pins
+- **PWM**: LED and motor control channels
 
 
 # Getting Started
@@ -87,11 +87,11 @@ The badge supports multiple interfaces, including GPIO, UART, SPI, I2C, USB, etc
 
 In the diagrams below, you can see the pinout for the different protocols available on the badge. It is important to note that only bus 0 of the SPI, I²C, and UART protocols is active by default. To enable any other protocol, please refer to the device trees source.
 
-![](./hardware/readme_image/general_protocol.png)
+<img src="hardware/readme_image/general_protocol.png" width="1100"/>
 
-![](./hardware/readme_image/general_protocol_2.png)
+<img src="hardware/readme_image/general_protocol_2.png" width="1100"/>
 
-![](./hardware/readme_image/general_protocol_3.png)
+<img src="hardware/readme_image/general_protocol_3.png" width="1100"/>
 
 The pin numbers corresponding to GPIOs are marked in the pinout diagram. You could use it to configure a pin as a gpio.
 For more information, please refer to the gpio luckfox wiki.
@@ -100,11 +100,11 @@ For more information, please refer to the gpio luckfox wiki.
 
 The board also is compatible with 10/100 Mbps ethernet. Please notice that you need to add the ethernet transformer and the common-mode choker for the proper function of the device.
 
-![](./hardware/readme_image/ethernet.png)
+<img src="hardware/readme_image/ethernet.png" width="1100"/>
 
 Finally, the board also allows external analog microphones to be connected to it through codec input. The CPU can also output PCM (Pulse-Code Modulation) digital audio signals locally, which can be converted to analog signals for playback. It is important to note that the analog signal used for playback requires its own amplifier to prevent current-related issues.
 
-![](./hardware/readme_image/codec.png)
+<img src="hardware/readme_image/codec.png" width="1100"/>
 
 For more information, please refer to the audio luckfox wiki
 
@@ -129,7 +129,7 @@ For more information, please refer to the DTS luckfox wiki
 
 - [DTS](https://wiki.luckfox.com/Luckfox-Pico-Ultra/Device-Tree)
 
-## Hola Mundo
+## Hello world
 The badge already includes Python 3.11.6, so you can run Python scripts directly from the terminal without any additional setup.
 
 This short guide shows how to create and run a simple “Hello World” program.
@@ -257,7 +257,7 @@ sudo ./rkflash.sh update
 ```
 
 
-## 📖 Documentación Adicional
+## 📖 Aditional Documentation
 
 - [KiCad Documentation](https://docs.kicad.org/)
 - [RV1106 Datasheet](https://www.rock-chips.com/a/en/products/RV11_Series/2022/0601/1553.html)
