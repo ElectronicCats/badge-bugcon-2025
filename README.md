@@ -33,7 +33,6 @@ The project is divided into two main directories:
 ### 1. Main Badge (`Badge_Bugcon_2025/`)
 Includes the core design:
 - RV1106G3 processor
-- 128×32 OLED display
 - WS2812E Neopixel LEDs
 - Power and battery management
 - USB interfaces
@@ -267,40 +266,40 @@ sudo ./rkflash.sh update
 - [RV1106 Datasheet](https://www.rock-chips.com/a/en/products/RV11_Series/2022/0601/1553.html)
 - [Proyecto Basado en LuckFox](https://wiki.luckfox.com/Luckfox-Pico-RV1106)
 
-## 🤝 Contribuciones
+## 🤝 Contributions
 
-Este es un proyecto de hardware abierto. Las contribuciones son bienvenidas:
+This is an open-hardware project. Contributions are welcome:
 
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
+1. Fork the repository
+2. Create a feature branch(`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## 📝 Licencia
+## 📝 License
 
-Este proyecto es de hardware abierto. Consulta los archivos de licencia para más detalles.
+This project is open hardware. Please refer to the license files for further details.
 
 ## 🏢 Electronic Cats
 
-Desarrollado con ❤️ por [Electronic Cats](https://www.electroniccats.com/)
+Developed with ❤️ by [Electronic Cats](https://www.electroniccats.com/)
 
 <a href="https://github.com/sponsors/ElectronicCats">
 <img src="https://electroniccats.com/wp-content/uploads/2020/07/Badge_GHS.png" height="104" />
 </a>
 
-Electronic Cats invierte tiempo y recursos proporcionando este diseño de hardware abierto. ¡Por favor apoya a Electronic Cats y al hardware abierto comprando productos de Electronic Cats!
+Electronic Cats invests time and resources in providing this open-hardware design.
+Please support Electronic Cats and open hardware by purchasing Electronic Cats products!
 
-## 📞 Contacto y Soporte
+## 📞 Contact & Support
 
 - **Website**: [https://www.electroniccats.com/](https://www.electroniccats.com/)
 - **GitHub**: [ElectronicCats](https://github.com/ElectronicCats)
-- **Issues**: Utiliza la sección de Issues de GitHub para reportar problemas o sugerir mejoras
+- **Issues**: Use the GitHub Issues section to report problems or suggest improvements
 
-## 🙏 Agradecimientos
+## 🙏 Acknowledgments
 
-Gracias a toda la comunidad de hardware abierto y a todos los que hacen posible proyectos como este.
-
+Thanks to the entire open-hardware community and to everyone who makes projects like this possible.
 ---
 
-**Nota**: Este badge está diseñado para BugCon 2025. Para más información sobre el evento, visita la página oficial de BugCon.
+Note: This badge is designed for BugCon 2025. For more information about the event, please visit the official BugCon page.
