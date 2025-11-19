@@ -241,16 +241,20 @@ python3 /root/[name of the scrip].py
 In this README, we will refer to the flashing method for Linux-based operating systems. For Windows or macOS, please refer to the official Luckfox flashing page:
 
 - [Flashing image](https://wiki.luckfox.com/Luckfox-Pico-Pro-Max/Flash-image)
+- 
+1. Clone or download the image from the luckfox repository (bugcon2025)
 
-1.Press and hold the BOOT button while connecting the board to the host PC to enter flash mode.
+- [Luckfox repository](https://github.com/ElectronicCats/luckfox-pico/tree/bugcon2025)
+    
+2.Press and hold the BOOT button while connecting the board to the host PC to enter flash mode.
 
-2. After running the lsusb, you should see the device recognition results as below: 
+3. After running the lsusb, you should see the device recognition results as below: 
 
 ```
 Bus 003 Device 005: ID 2207:110c Fuzhou Rockchip Electronics Company 
 ```
 
-3. Once you have the board in BOOt mode proceed to flash the board. You can do that from the main carpet in luckfox (The one who has the rkflash.sh file).
+4. Once you have the board in BOOt mode proceed to flash the board. You can do that from the main carpet in luckfox (The one who has the rkflash.sh file).
 
 ```
 sudo ./rkflash.sh update
