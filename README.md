@@ -264,7 +264,7 @@ sudo ./rkflash.sh update
 
 - [KiCad Documentation](https://docs.kicad.org/)
 - [RV1106 Datasheet](https://www.rock-chips.com/a/en/products/RV11_Series/2022/0601/1553.html)
-- [Proyecto Basado en LuckFox](https://wiki.luckfox.com/Luckfox-Pico-RV1106)
+- [Project Based on LuckFox](https://wiki.luckfox.com/Luckfox-Pico-RV1106)
 
 ## 🤝 Contributions
 
