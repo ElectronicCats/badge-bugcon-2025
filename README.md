@@ -1,90 +1,91 @@
 # Badge BugCon 2025
 
-The BugCon 2025 Badge is an open-hardware device designed for the hacker, developer, and technology enthusiast community. It features a powerful Linux processor capable of running custom applications, along with a wide range of interfaces to extend its functionality.
+El Badge BugCon 2025 es un dispositivo de hardware abierto diseñado para la comunidad de hackers, desarrolladores y entusiastas de la tecnología. Cuenta con un potente procesador Linux capaz de ejecutar aplicaciones personalizadas, junto con una amplia variedad de interfaces para ampliar su funcionalidad.
 
-## 🚀 Main Features
+## 🚀 Características Principales
 
-### Main Processor
-- **RV1106**: High-performance Linux processor
-  - ARM Cortex-A7 + RISC-V MCU
-  - Integrated NPU (Neural Processing Unit)
-  - Integrated ISP (Image Signal Processor)
-  - Full support for Linux operating systems
+### Procesador principal 
+- **RV1106**: Procesador Linux de alto rendimiento
+  - ARM Cortex-A7 + MCU RISC-V
+  - NPU integrada (Unidad de Procesamiento Neural)
+  - ISP integrado (Procesador de Señal de Imagen)
+  - Soporte completo para sistemas operativos Linux
 
-### Interfaces & Connectivity
-- **GPIOs**: Multiple general-purpose pins
-- **MIPI CSI**: Interface for cameras and image sensors
-- **UART**: Asynchronous serial communication
-- **SPI**: High-speed peripheral communication
-- **I2C**: Communication bus for sensors and displays
-- **USB**: USB port with integrated hub
-- **Ethernet**: GPIO-based Ethernet port for wired networking
+### Interfaces y Conectividad
+- **GPIOs**: Múltiples pines de propósito general
+- **MIPI CSI**: Interfaz para cámaras y sensores de imagen
+- **UART**: Comunicación serial asíncrona
+- **SPI**: Comunicación periférica de alta velocidad
+- **I2C**: Bus de comunicación para sensores y pantallas
+- **USB**: Puerto USB con hub integrado
+- **Ethernet**: Puerto Ethernet basado en GPIO para conectividad por cable
 
-### Integrated Peripherals
-- **Neopixels**: WS2812E RGB programmable LEDs
-- **Batería**: Support for 18650 battery with power management
-- **Buck Converter**: Efficient DC-DC regulation
-- **USB-A**: External device support
+### Periféricos Integrados
+- **Neopixels**: LEDs RGB programables WS2812E
+- **Batería**: Soporte para baterías 18650 con gestión de energía
+- **Buck Converter**: Regulación eficiente DC-DC
+- **USB-A**: Soporte para dispositivos externos
 
-## 📦 Project Components
+## 📦 Componentes del Proyecto
 
-The project is divided into two main directories:
+El proyecto está dividido en dos directorios principales:
 
-### 1. Main Badge (`Badge_Bugcon_2025/`)
-Includes the core design:
-- RV1106G3 processor
-- WS2812E Neopixel LEDs
-- Power and battery management
-- USB interfaces
+### 1. Badge Principal (`Badge_Bugcon_2025/`)
+Incluye el diseño principal:
+- Procesador RV1106G3
+- LEDs Neopixel WS2812E
+- Gestión de energía y batería
+- Interfaces USB
 
 ### 2. Add-on (`Add_On_Bugcon_2025/`)
-Expansion board including:
-- PY32F002AA15M microcontroller
-- Additional components for extended capabilities
-- Custom decorative layout
+Placa de expansión que incluye:
+- Microcontrolador PY32F002AA15M
+- Componentes adicionales para capacidades extendidas
+- Diseño decorativo personalizado
 
-## 📋 Technical Specifications
+## 📋 Especificaciones Técnicas
 
-| Component | Specification |
+| Componente | Especificación |
 |------------|----------------|
-| Processor | RV1106G3 (ARM Cortex-A7 + RISC-V MCU + NPU + ISP) |
-| Operating System | Linux |
+| Procesador | RV1106G3 (ARM Cortex-A7 + RISC-V MCU + NPU + ISP) |
+| Sistema Operativo | Linux |
 | LEDs | WS2812E Neopixels |
-| Battery | Soporte 18650 |
+| Batería | Soporte 18650 |
 | Interfaces | USB, Ethernet, UART, SPI, I2C, MIPI CSI, GPIOs |
 
 
-## 🔌 RV1106 Interfaces
+## 🔌 Interfaces del RV1106
 
 El procesador RV1106 ofrece las siguientes interfaces:
 
 ### Comunicación
-- **UART**: Serial communication (debug/terminal)
-- **SPI**: High-speed peripheral interface
-- **I2C**: For sensors, displays, and other I2C devices
-- **USB**: Integrated USB hub
+- **UART**: Comunicación serial (debug/terminal)
+- **SPI**: Interfaz periférica de alta velocidad
+- **I2C**: Para sensores, pantallas y otros dispositivos I2C
+- **USB**: Hub USB integrado
 
-### Networking
-- **Ethernet**: Wired connectivity via GPIO-based interface
+### Red
+- **Ethernet**: Conectividad por cable mediante una interfaz basada en GPIO
 
-### Multimedia & Imaging
-- **MIPI CSI**: Camera and image sensor interface
-- **ISP**: Integrated image signal processor
+### Multimedia e Imagen
+- **MIPI CSI**: Interfaz para cámaras y sensores de imagen
+- **ISP**: Procesador de señal de imagen integrado
 
 ### Control
-- **GPIOs**: General-purpose pins
-- **PWM**: LED and motor control channels
+- **GPIOs**: Pines de propósito general
+- **PWM**: Canales PWM para control de LEDs y motores
 
+# Primeros pasos 
 
-# Getting Started
+El badge Bugcon 2025 está basado en el hardware y el SDK del Luckfox Pico Pro Max. Para información general, consulta la Wiki oficial de Luckfox. El badge incorpora el RV1106G3, un microprocesador de bajo consumo y alta integración de Rockchip, basado en una CPU RISC-V de 32 bits optimizada para aplicaciones de codificación y decodificación de audio y video.
 
-The Bugcon 2025 badge is built on the Luckfox Pico Pro Max hardware and SDK. For general information, please refer to the official Luckfox Wiki. The badge features the RV1106G3, a low-power, highly integrated microprocessor from Rockchip, based on a 32-bit RISC-V CPU optimized for audio and video encoding/decoding applications. 
-
-The badge supports multiple interfaces, including GPIO, UART, SPI, I2C, USB, etc., facilitating rapid development and debugging for developers.Please note that communication with the badge will take place through the serial interface, specifically using the pins indicated in the image.
+El badge es compatible con múltiples interfaces, incluyendo GPIO, UART, SPI, I²C, USB, entre otras, lo que facilita un desarrollo rápido y una depuración eficiente.
+Ten en cuenta que la comunicación con el badge se realizará a través de la interfaz serial, específicamente mediante los pines indicados en la imagen.
 
 ![](./hardware/readme_image/serial.png)
 
-In the diagrams below, you can see the pinout for the different protocols available on the badge. It is important to note that only bus 0 of the SPI, I²C, and UART protocols is active by default. To enable any other protocol, please refer to the device trees source.
+Los números de pines correspondientes a los GPIO se encuentran marcados en el diagrama de pinout. Puedes utilizarlos para configurar un pin como GPIO.
+Para más información, consulta la wiki de GPIO de Luckfox.e.
 
 <img src="hardware/readme_image/general_protocol.png" width="1100"/>
 
@@ -92,82 +93,82 @@ In the diagrams below, you can see the pinout for the different protocols availa
 
 <img src="hardware/readme_image/general_protocol_3.png" width="1100"/>
 
-The pin numbers corresponding to GPIOs are marked in the pinout diagram. You could use it to configure a pin as a gpio.
-For more information, please refer to the gpio luckfox wiki.
+Los números de pines correspondientes a los GPIO se encuentran marcados en el diagrama de pinout. Puedes utilizarlos para configurar un pin como GPIO.
+Para más información, consulta la wiki de GPIO de Luckfox.
 
 - [GPIO](https://wiki.luckfox.com/Luckfox-Pico-Pro-Max/Flash-image)
 
-The board also is compatible with 10/100 Mbps ethernet. Please notice that you need to add the ethernet transformer and the common-mode choker for the proper function of the device.
+La tarjeta también es compatible con Ethernet de 10/100 Mbps. Ten en cuenta que es necesario agregar el transformador Ethernet (Ethernet transformer) y el common-mode choke para garantizar el funcionamiento adecuado del dispositivo.
 
 <img src="hardware/readme_image/ethernet.png" width="1100"/>
 
-Finally, the board also allows external analog microphones to be connected to it through codec input. The CPU can also output PCM (Pulse-Code Modulation) digital audio signals locally, which can be converted to analog signals for playback. It is important to note that the analog signal used for playback requires its own amplifier to prevent current-related issues.
+Finalmente, la tarjeta permite conectar micrófonos analógicos externos a través de la entrada del códec. El CPU también puede generar señales de audio digital PCM (Pulse-Code Modulation), las cuales pueden convertirse en señales analógicas para reproducción.
+Es importante destacar que la señal analógica utilizada para reproducción requiere su propio amplificador para evitar problemas relacionados con la corriente.
 
 <img src="hardware/readme_image/codec.png" width="1100"/>
 
-For more information, please refer to the audio luckfox wiki
+Para más información, consulta la wiki de audio de Luckfox:
 
 - [Audio](https://wiki.luckfox.com/Luckfox-Pico-Pro-Max/Flash-image)
 
-IMPORTANT: Please do not use the FSPI pins. Those are connected directly to the flash memory. Any change in its signal may cause the badge to malfunction.
-Please notice that 
+IMPORTANTE: No utilices los pines FSPI. Estos están conectados directamente a la memoria flash. Cualquier alteración en sus señales puede provocar fallos en el funcionamiento del badge.
 
 ## Device tree source 
 
-The Device Tree is used in the Linux kernel to describe a board’s hardware.
-It is written in text files with the extensions .dts (Device Tree Source) and .dtsi (Device Tree Source Include).
-The .dts file defines the specific hardware for a board, while the .dtsi file contains shared or common configurations used by multiple .dts files. 
+El Device Tree es utilizado en el kernel de Linux para describir el hardware de una placa.
+Está compuesto por archivos de texto con extensiones .dts (Device Tree Source) y .dtsi (Device Tree Source Include).
+El archivo .dts define el hardware específico de la placa, mientras que el archivo .dtsi contiene configuraciones comunes o compartidas por múltiples .dts.
 
-You can use the DTS to enable, desable and/or configure the different peripherals that the board can offer
-The device tree files are located in the following directory of the SDK:
+Puedes utilizar el Device Tree para habilitar, deshabilitar y/o configurar los diferentes periféricos que la tarjeta ofrece.
+Los archivos del Device Tree se encuentran en el siguiente directorio del SDK:
 
 ```
  luckfox-pico SDK/sysdrv/source/kernel/arch/arm/boot/dts
 ```
-For more information, please refer to the DTS luckfox wiki
+Para más información, consulta la wiki de DTS de Luckfox:
 
 - [DTS](https://wiki.luckfox.com/Luckfox-Pico-Ultra/Device-Tree)
 
-## Hello world
-The badge already includes Python 3.11.6, so you can run Python scripts directly from the terminal without any additional setup.
+## Hola Mundo
+El badge ya incluye Python 3.11.6, por lo que puedes ejecutar scripts de Python directamente desde la terminal sin necesidad de configurar nada adicional.
 
-This short guide shows how to create and run a simple “Hello World” program.
+Esta breve guía muestra cómo crear y ejecutar un simple programa “Hola Mundo”.
 
-1. In the terminal, create a new file 
-
-```
-nano name.py
-```
-or
-```
-vi name.py
-```
-
-Add this line:
-```
-print("Hello world!")
-```
-2. Execute the file
+1. En la terminal, crea un nuevo archivo:
 
 ```
-python3 hello.py
+nano nombre.py
+```
+o
+```
+vi nombre.py
+```
+
+Agrega esta linea:
+```
+print("Hola mundo!")
+```
+2. Ejecuta el archivo
+
+```
+python3 nombre.py
 ```
 
 you should see
 ```
-Hello world!
+Hola mundo !
 ``` 
 
-## NEOPIXELS
+## NEOPIXELES
 
-The RGB LEDs WS2812B and WS2812E-1313 can be controlled using the Python **spidev** module through the SPI interface of the RV1106.  
-It is important to note that SPI is used as an 800 kHz pulse train generator, which is required for the proper operation of the NeoPixel.
+Los LEDs RGB WS2812B y WS2812E-1313 pueden controlarse utilizando el módulo de Python spidev a través de la interfaz SPI del RV1106.
+Es importante destacar que SPI se utiliza como un generador de trenes de pulsos a 800 kHz, lo cual es necesario para el funcionamiento correcto de los NeoPixel.
 
-Once enabled the modules in the configuration interface and flashed the board, the next step will be to create a python scrip in the buildroot environment inside the pcb.
+Una vez habilitados los módulos en la interfaz de configuración y grabada la tarjeta, el siguiente paso será crear un script de Python en el entorno de Buildroot dentro de la PCB.
 ```
-nano /root/[name of the scrip].py
+nano /root/[nombre del scrip].py
 ```
-It can be something like this:
+Puede ser algo como esto:
 
 ```
 #!/usr/bin/env python3
@@ -217,22 +218,22 @@ def main():
     colors = [(255,0,255), (0,255,0), (0,0,255)]  # rosa, verde, azul
 
     t0 = threading.Thread(target=run_spi, args=(0,0,colors))
-    t1 = threading.Thread(target=run_spi, args=(1,0,colors))
+    #t1 = threading.Thread(target=run_spi, args=(1,0,colors))
 
     t0.start()
-    t1.start()
+    #t1.start()
 
     t0.join()
-    t1.join()
+    #t1.join()
 
 if __name__ == "__main__":
     main()
 
 ```
-The scrip controls both the WS2812B and WS2812B-1313 LEDs through **spi0** and **spi1** , cycling between four different colors (blue, red, green, and pink) every second.
-Once created, run the scrip:
+El script controla tanto los LEDs WS2812B como WS2812B-1313 a través de spi0 y spi1, alternando entre cuatro colores diferentes (azul, rojo, verde y rosa) cada segundo.
+Una vez creado, ejecuta el script:
 ```
-python3 /root/[name of the scrip].py
+python3 /root/[nombre del scrip].py
 ```
 
 # Image Flashing
@@ -260,46 +261,46 @@ sudo ./rkflash.sh update
 ```
 
 
-## 📖 Aditional Documentation
+## 📖 Documentación Adicional
 
 - [KiCad Documentation](https://docs.kicad.org/)
 - [RV1106 Datasheet](https://www.rock-chips.com/a/en/products/RV11_Series/2022/0601/1553.html)
-- [Project Based on LuckFox](https://wiki.luckfox.com/Luckfox-Pico-RV1106)
+- [Proyecto basado en Luckfox](https://wiki.luckfox.com/Luckfox-Pico-RV1106)
 
-## 🤝 Contributions
+## 🤝 Contribuciones
 
-This is an open-hardware project. Contributions are welcome:
+Este es un proyecto de hardware abierto. Las contribuciones son bienvenidas:
 
-1. Fork the repository
-2. Create a feature branch(`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Haz un fork del repositorio.
+2. Crea una nueva rama para tu feature (`git checkout -b feature/AmazingFeature`)
+3. Haz commit de tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Haz push a tu rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
 
-## 📝 License
+## 📝 Licencia
 
-This project is open hardware. Please refer to the license files for further details.
+Este proyecto es de hardware abierto. Consulta los archivos de licencia para más detalles.
 
 ## 🏢 Electronic Cats
 
-Developed with ❤️ by [Electronic Cats](https://www.electroniccats.com/)
+Desarollado con ❤️ por [Electronic Cats](https://www.electroniccats.com/)
 
 <a href="https://github.com/sponsors/ElectronicCats">
 <img src="https://electroniccats.com/wp-content/uploads/2020/07/Badge_GHS.png" height="104" />
 </a>
 
-Electronic Cats invests time and resources in providing this open-hardware design.
-Please support Electronic Cats and open hardware by purchasing Electronic Cats products!
+Electronic Cats invierte tiempo y recursos en proporcionar este diseño de hardware abierto.
+Por favor, apoya a Electronic Cats y al hardware abierto comprando productos de Electronic Cats.
 
-## 📞 Contact & Support
+## 📞 Contacto y soporte 
 
 - **Website**: [https://www.electroniccats.com/](https://www.electroniccats.com/)
 - **GitHub**: [ElectronicCats](https://github.com/ElectronicCats)
-- **Issues**: Use the GitHub Issues section to report problems or suggest improvements
+- **Issues**: Usa la sección de Issues en GitHub para reportar problemas o sugerir mejoras
 
-## 🙏 Acknowledgments
+## 🙏 Agradecimientos
 
-Thanks to the entire open-hardware community and to everyone who makes projects like this possible.
+Gracias a toda la comunidad de hardware abierto y a todas las personas que hacen posibles proyectos como este.
 ---
 
-Note: This badge is designed for BugCon 2025. For more information about the event, please visit the official BugCon page.
+Nota: Este badge está diseñado para BugCon 2025. Para más información sobre el evento, visita la página oficial de BugCon.
