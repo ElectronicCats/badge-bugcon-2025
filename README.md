@@ -129,6 +129,31 @@ Para más información, consulta la wiki de DTS de Luckfox:
 
 - [DTS](https://wiki.luckfox.com/Luckfox-Pico-Ultra/Device-Tree)
 
+## USB host mode 
+
+Puede modificar la configuración del device tree para establecerlo como un USB HOST, lo que le permitirá ampliar múltiples interfaces mediante un USB HUB.
+
+1. Abre la herramienta de luckfox-config en la terminal de la badge:
+
+```
+luckfox-config
+```
+
+2. Selecciona "Advanced Options":
+
+<img src="hardware/readme_image/usb_1.png" width="450"/>
+
+3. Selecciona "USB" :
+
+<img src="hardware/readme_image/usb_2.png" width="450"/>
+
+4. Selecciona el modo "HOST": 
+
+<img src="hardware/readme_image/usb_3.png" width="250"/>
+
+5. Una vez seleccionado, usar la tecla "Esc" para salir.
+
+
 ## Hola Mundo
 El badge ya incluye Python 3.11.6, por lo que puedes ejecutar scripts de Python directamente desde la terminal sin necesidad de configurar nada adicional.
 
@@ -238,19 +263,47 @@ python3 /root/[nombre del scrip].py
 
 # Cargar la imagen 
 
-1. Descarga la imagen del siguiente enlace:
+Las siguientes instrucciones aplican únicamente para sistemas Linux y macOS.
+Para cargar la imagen a traves de windows, es necesario descargar este zip:
+```
+https://drive.google.com/drive/folders/1J3xfAAmFQHFgw1gC7Ql5-bSOi6YOyE-3
+```
 
+La carpeta contiene varias imagenes necesarias para el flasheo de la placa Bugcon2025.
+Una vez descargada, por favor seguir las intrucciones de la wiki de luckfox:
+```
+https://wiki.luckfox.com/Luckfox-Pico-Pro-Max/Flash-image
+```
+
+## Linux
+
+1. Del release, descargar y descomprimir el archivo comprimido Bugcon-Badge-2025-v1.0.tar.xz. 
     
-2.Mantenga presionado el botón BOOT mientras conecta la placa a la computadora anfitriona para entrar en modo de flasheo.
+2. Mantenga presionado el botón BOOT mientras conecta la placa a la computadora anfitriona para entrar en modo de flasheo.
 
-3. En linux, ejecutar lsusb. Debería ver los resultados de reconocimiento del dispositivo como se muestra a continuación:
+3. Una vez que tengas la placa en modo BOOT, procede a flashearla. Para ello, tendras que usar el .img que se encuentra en el 
+archivo previamente descomprimido (modifique la ruta según la ubicación real de la imagen):
 
 ```
-Bus 003 Device 005: ID 2207:110c Fuzhou Rockchip Electronics Company 
+sudo ./upgrade_tool uf  {PATH-TO-IMAGE}/Bugcon-Badge-2025-v1.0.img
 ```
 
-4. Una vez que tengas la placa en modo BOOT, procede a flashearla. Para ello, favor de utilizar algun programa que le permita cargar .img,.bin, etc.
+## MAC OS
 
+1. Descargar y extraer la herramienta de actualizacion
+
+```
+sudo ditto -xk upgrade_tool_v2.3_mac.zip .
+```
+
+1. Del release, descargar y descomprimir el archivo comprimido Bugcon-Badge-2025-v1.0.tar.xz. 
+    
+2. Mantenga presionado el botón BOOT mientras conecta la placa a la computadora anfitriona para entrar en modo de flasheo.
+
+3. Una vez que tengas la placa en modo BOOT, procede a flashearla. Para ello, ejecute el programa para flashear el firmware (modifique la ruta según la ubicación real de la imagen) y use el .img previamente descomprimido:
+```
+sudo ./upgrade_tool uf  {PATH-TO-IMAGE}/Bugcon-Badge-2025-v1.0.img
+```
 
 ## 📖 Documentación Adicional
 
