@@ -113,6 +113,9 @@ Para más información, consulta la wiki de audio de Luckfox:
 
 IMPORTANTE: No utilices los pines FSPI. Estos están conectados directamente a la memoria flash. Cualquier alteración en sus señales puede provocar fallos en el funcionamiento del badge.
 
+## Blink Blink!
+Presiona los botones que se encuentran al frente del badge y enciende los leds!!
+
 ## Hola Mundo
 El badge ya incluye Python 3.11.6, por lo que puedes ejecutar scripts de Python directamente desde la terminal sin necesidad de configurar nada adicional.
 
