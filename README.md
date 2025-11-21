@@ -310,6 +310,7 @@ sudo ./upgrade_tool uf  {PATH-TO-IMAGE}/Bugcon-Badge-2025-v1.0.img
 - [KiCad Documentation](https://docs.kicad.org/)
 - [RV1106 Datasheet](https://www.rock-chips.com/a/en/products/RV11_Series/2022/0601/1553.html)
 - [Proyecto basado en Luckfox](https://wiki.luckfox.com/Luckfox-Pico-RV1106)
+- [SDK basado en Badge](https://github.com/ElectronicCats/luckfox-pico/tree/bugcon2025)
 
 ## 🤝 Contribuciones
 
