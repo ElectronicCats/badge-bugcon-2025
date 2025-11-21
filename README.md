@@ -66,6 +66,7 @@ El procesador RV1106 ofrece las siguientes interfaces:
 
 ### Red
 - **Ethernet**: Conectividad por cable mediante una interfaz basada en GPIO
+- **WiFi (NO INCLUIDO)**: Conectividad por USB mediante el USB HUB, drivers disponibles ya instalados en kernel.
 
 ### Multimedia e Imagen
 - **MIPI CSI**: Interfaz para cámaras y sensores de imagen
@@ -77,7 +78,9 @@ El procesador RV1106 ofrece las siguientes interfaces:
 
 # Primeros pasos 
 
-El badge Bugcon 2025 está basado en el hardware y el SDK del Luckfox Pico Pro Max. Para información general, consulta la Wiki oficial de Luckfox. El badge incorpora el RV1106G3, un microprocesador de bajo consumo y alta integración de Rockchip, basado en una CPU RISC-V de 32 bits optimizada para aplicaciones de codificación y decodificación de audio y video.
+El badge Bugcon 2025 está basado en el hardware y el SDK del Luckfox Pico Pro Max. Para información general, consulta la Wiki oficial de Luckfox. El badge incorpora el RV1106G3, un microprocesador de bajo consumo de Rockchip, basado en una CPU ARM y un co-procesador RISC-V de 32 bits optimizada para aplicaciones de codificación y decodificación de audio y video.
+
+Nuestro primer badge con Linux embebido!
 
 El badge es compatible con múltiples interfaces, incluyendo GPIO, UART, SPI, I²C, USB, entre otras, lo que facilita un desarrollo rápido y una depuración eficiente.
 Ten en cuenta que la comunicación con el badge se realizará a través de la interfaz serial, específicamente mediante los pines indicados en la imagen.
@@ -266,7 +269,8 @@ luckfox-config
 
 # Cargar la imagen 
 
-Las siguientes instrucciones aplican únicamente para sistemas Linux y macOS.
+## Windows
+
 Para cargar la imagen a traves de windows, es necesario descargar este zip:
 ```
 https://drive.google.com/drive/folders/1J3xfAAmFQHFgw1gC7Ql5-bSOi6YOyE-3
@@ -280,12 +284,13 @@ https://wiki.luckfox.com/Luckfox-Pico-Pro-Max/Flash-image
 
 ## Linux
 
-1. Del release, descargar y descomprimir el archivo comprimido Bugcon-Badge-2025-v1.0.tar.xz. 
+1. [Descargar](https://wiki.luckfox.com/assets/files/upgrade_tool_v2.17-bfd48dcdba9fd8013872ca2abff19a8d.zip) y extraer la herramiente de actualizacion de Rockchip.
+   
+3. Del release, descargar y descomprimir el archivo comprimido Bugcon-Badge-2025-vX.X.tar.xz. 
     
-2. Mantenga presionado el botón BOOT mientras conecta la placa a la computadora anfitriona para entrar en modo de flasheo.
+4. Mantenga presionado el botón BOOT mientras conecta la placa a la computadora anfitriona para entrar en modo de flasheo.
 
-3. Una vez que tengas la placa en modo BOOT, procede a flashearla. Para ello, tendras que usar el .img que se encuentra en el 
-archivo previamente descomprimido (modifique la ruta según la ubicación real de la imagen):
+5. Una vez que tengas la placa en modo BOOT, procede a flashearla. Para ello, tendras que usar el .img que se encuentra en el archivo previamente descomprimido (modifique la ruta según la ubicación real de la imagen):
 
 ```
 sudo ./upgrade_tool uf  {PATH-TO-IMAGE}/Bugcon-Badge-2025-v1.0.img
@@ -293,17 +298,13 @@ sudo ./upgrade_tool uf  {PATH-TO-IMAGE}/Bugcon-Badge-2025-v1.0.img
 
 ## MAC OS
 
-1. Descargar y extraer la herramienta de actualizacion
+1. [Descargar](https://wiki.luckfox.com/files/RV1106/upgrade_tool_v2.44_for_mac.zip) y extraer la herramienta de actualizacion
 
-```
-sudo ditto -xk upgrade_tool_v2.3_mac.zip .
-```
-
-1. Del release, descargar y descomprimir el archivo comprimido Bugcon-Badge-2025-v1.0.tar.xz. 
+2. Del release, descargar y descomprimir el archivo comprimido Bugcon-Badge-2025-v1.0.tar.xz. 
     
-2. Mantenga presionado el botón BOOT mientras conecta la placa a la computadora anfitriona para entrar en modo de flasheo.
+3. Mantenga presionado el botón BOOT mientras conecta la placa a la computadora anfitriona para entrar en modo de flasheo.
 
-3. Una vez que tengas la placa en modo BOOT, procede a flashearla. Para ello, ejecute el programa para flashear el firmware (modifique la ruta según la ubicación real de la imagen) y use el .img previamente descomprimido:
+4. Una vez que tengas la placa en modo BOOT, procede a flashearla. Para ello, ejecute el programa para flashear el firmware (modifique la ruta según la ubicación real de la imagen) y use el .img previamente descomprimido:
 ```
 sudo ./upgrade_tool uf  {PATH-TO-IMAGE}/Bugcon-Badge-2025-v1.0.img
 ```
@@ -311,7 +312,7 @@ sudo ./upgrade_tool uf  {PATH-TO-IMAGE}/Bugcon-Badge-2025-v1.0.img
 ## 📖 Documentación Adicional
 
 - [KiCad Documentation](https://docs.kicad.org/)
-- [RV1106 Datasheet](https://www.rock-chips.com/a/en/products/RV11_Series/2022/0601/1553.html)
+- [RV1106 Datasheet](https://files.luckfox.com/wiki/Luckfox-Pico/PDF/Rockchip%20RV1106%20Datasheet%20V1.7-20231218.pdf)
 - [Proyecto basado en Luckfox](https://wiki.luckfox.com/Luckfox-Pico-RV1106)
 - [SDK basado en Badge](https://github.com/ElectronicCats/luckfox-pico/tree/bugcon2025)
 
