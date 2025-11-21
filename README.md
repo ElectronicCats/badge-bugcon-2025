@@ -113,47 +113,6 @@ Para más información, consulta la wiki de audio de Luckfox:
 
 IMPORTANTE: No utilices los pines FSPI. Estos están conectados directamente a la memoria flash. Cualquier alteración en sus señales puede provocar fallos en el funcionamiento del badge.
 
-## Device tree source 
-
-El Device Tree es utilizado en el kernel de Linux para describir el hardware de una placa.
-Está compuesto por archivos de texto con extensiones .dts (Device Tree Source) y .dtsi (Device Tree Source Include).
-El archivo .dts define el hardware específico de la placa, mientras que el archivo .dtsi contiene configuraciones comunes o compartidas por múltiples .dts.
-
-Puedes utilizar el Device Tree para habilitar, deshabilitar y/o configurar los diferentes periféricos que la tarjeta ofrece.
-Los archivos del Device Tree se encuentran en el siguiente directorio del SDK:
-
-```
- luckfox-pico SDK/sysdrv/source/kernel/arch/arm/boot/dts
-```
-Para más información, consulta la wiki de DTS de Luckfox:
-
-- [DTS](https://wiki.luckfox.com/Luckfox-Pico-Ultra/Device-Tree)
-
-## USB host mode 
-
-Puede modificar la configuración del device tree para establecerlo como un USB HOST, lo que le permitirá ampliar múltiples interfaces mediante un USB HUB.
-
-1. Abre la herramienta de luckfox-config en la terminal de la badge:
-
-```
-luckfox-config
-```
-
-2. Selecciona "Advanced Options":
-
-<img src="hardware/readme_image/usb_1.png" width="450"/>
-
-3. Selecciona "USB" :
-
-<img src="hardware/readme_image/usb_2.png" width="450"/>
-
-4. Selecciona el modo "HOST": 
-
-<img src="hardware/readme_image/usb_3.png" width="250"/>
-
-5. Una vez seleccionado, usar la tecla "Esc" para salir.
-
-
 ## Hola Mundo
 El badge ya incluye Python 3.11.6, por lo que puedes ejecutar scripts de Python directamente desde la terminal sin necesidad de configurar nada adicional.
 
@@ -260,6 +219,47 @@ Una vez creado, ejecuta el script:
 ```
 python3 /root/[nombre del scrip].py
 ```
+
+## Device tree source 
+
+El Device Tree es utilizado en el kernel de Linux para describir el hardware de una placa.
+Está compuesto por archivos de texto con extensiones .dts (Device Tree Source) y .dtsi (Device Tree Source Include).
+El archivo .dts define el hardware específico de la placa, mientras que el archivo .dtsi contiene configuraciones comunes o compartidas por múltiples .dts.
+
+Puedes utilizar el Device Tree para habilitar, deshabilitar y/o configurar los diferentes periféricos que la tarjeta ofrece.
+Los archivos del Device Tree se encuentran en el siguiente directorio del SDK:
+
+```
+ luckfox-pico SDK/sysdrv/source/kernel/arch/arm/boot/dts
+```
+Para más información, consulta la wiki de DTS de Luckfox:
+
+- [DTS](https://wiki.luckfox.com/Luckfox-Pico-Ultra/Device-Tree)
+
+## USB host mode 
+
+Puede modificar la configuración del device tree para establecerlo como un USB HOST, lo que le permitirá ampliar múltiples interfaces mediante un USB HUB.
+
+1. Abre la herramienta de luckfox-config en la terminal de la badge:
+
+```
+luckfox-config
+```
+
+2. Selecciona "Advanced Options":
+
+<img src="hardware/readme_image/usb_1.png" width="450"/>
+
+3. Selecciona "USB" :
+
+<img src="hardware/readme_image/usb_2.png" width="450"/>
+
+4. Selecciona el modo "HOST": 
+
+<img src="hardware/readme_image/usb_3.png" width="250"/>
+
+5. Una vez seleccionado, usar la tecla "Esc" para salir.
+
 
 # Cargar la imagen 
 
