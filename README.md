@@ -110,10 +110,11 @@ CP2105
 Matek F405 adapters (soportan 3.3V)
 
 Asegúrate de:
-
+```
 TX del adaptador → RX del badge
 RX del adaptador → TX del badge
 GND → GND
+```
 
 ## 💻 Cómo abrir la terminal serial
 
