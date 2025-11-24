@@ -83,9 +83,126 @@ El badge Bugcon 2025 está basado en el hardware y el SDK del Luckfox Pico Pro M
 Nuestro primer badge con Linux embebido!
 
 El badge es compatible con múltiples interfaces, incluyendo GPIO, UART, SPI, I²C, USB, entre otras, lo que facilita un desarrollo rápido y una depuración eficiente.
-Ten en cuenta que la comunicación con el badge se realizará a través de la interfaz serial, específicamente mediante los pines indicados en la imagen.
+
+## 🔌 Conectarse al puerto serial (Debug Serial)
+
+Para interactuar con el badge (ejecutar comandos, ver logs o depurar), debes conectarte al puerto DEBUG SERIAL mostrado en la imagen anterior.
+Este puerto corresponde a la UART2 del RV1106:
 
 ![](./hardware/readme_image/serial.png)
+
+```
+TX → GPIO1_B2_d
+RX → GPIO1_B3_u
+```
+⚠ Importante: La señal del puerto serial del badge es 3.3V TTL.
+
+## ✔ Adaptadores USB–Serial compatibles
+
+Puedes usar cualquier adaptador USB a UART de 3.3V, por ejemplo:
+
+CH340 / CH341
+CP2102 / CP2104
+FT232RL
+PL2303
+CP2105
+
+Matek F405 adapters (soportan 3.3V)
+
+Asegúrate de:
+
+TX del adaptador → RX del badge
+RX del adaptador → TX del badge
+GND → GND
+
+## 💻 Cómo abrir la terminal serial
+
+A continuación, cómo conectarte desde Linux, macOS y Windows.
+
+## 🐧 Linux
+
+Conecta el adaptador USB-serial.
+
+Verifica qué puerto creó:
+```
+dmesg | grep tty
+```
+
+Normalmente aparecerá como:
+```
+/dev/ttyUSB0
+/dev/ttyACM0
+```
+Conéctate con screen o minicom:
+
+Con screen (lo más fácil)
+```
+screen /dev/ttyUSB0 115200
+```
+
+Para salir:
+CTRL + A luego K (y confirma).
+
+Con minicom
+```
+sudo minicom -b 115200 -D /dev/ttyUSB0
+```
+
+## 🍎 macOS
+
+Conecta el adaptador USB-UART.
+
+Ver puertos disponibles:
+```
+ls /dev/tty.*
+```
+
+Suelen ser:
+```
+/dev/tty.usbserial-*
+/dev/tty.wchusbserial*
+/dev/tty.SLAB_USBtoUART
+```
+
+Conéctate:
+
+```
+screen /dev/tty.usbserial-XXXX 115200
+```
+
+Para salir:
+CTRL + A, luego K.
+
+Mac también permite usar CoolTerm (GUI amigable).
+
+## 🪟 Windows
+
+Usa un cliente serial como:
+```
+PuTTY
+TeraTerm
+CoolTerm
+RealTerm
+```
+
+Conecta el adaptador USB-UART.
+
+Abre el Administrador de dispositivos → “Puertos (COM y LPT)”
+
+Identifica el puerto COM, ejemplo: COM4
+
+Abre PuTTY o TeraTerm y selecciona:
+```
+Port: COM4
+Baudrate: 115200
+Data bits: 8
+Parity: None
+Stop bits: 1
+Flow control: None
+```
+Con eso verás la consola del badge.
+
+## Pinout 
 
 Los números de pines correspondientes a los GPIO se encuentran marcados en el diagrama de pinout. Puedes utilizarlos para configurar un pin como GPIO.
 Para más información, consulta la wiki de GPIO de Luckfox.e.
@@ -99,7 +216,7 @@ Para más información, consulta la wiki de GPIO de Luckfox.e.
 Los números de pines correspondientes a los GPIO se encuentran marcados en el diagrama de pinout. Puedes utilizarlos para configurar un pin como GPIO.
 Para más información, consulta la wiki de GPIO de Luckfox.
 
-- [GPIO](https://wiki.luckfox.com/Luckfox-Pico-Pro-Max/Flash-image)
+- [GPIO](https://wiki.luckfox.com/Luckfox-Pico-Pro-Max/GPIO)
 
 La tarjeta también es compatible con Ethernet de 10/100 Mbps. Ten en cuenta que es necesario agregar el transformador Ethernet (Ethernet transformer) y el common-mode choke para garantizar el funcionamiento adecuado del dispositivo.
 
@@ -112,7 +229,7 @@ Es importante destacar que la señal analógica utilizada para reproducción req
 
 Para más información, consulta la wiki de audio de Luckfox:
 
-- [Audio](https://wiki.luckfox.com/Luckfox-Pico-Pro-Max/Flash-image)
+- [Audio](https://wiki.luckfox.com/Luckfox-Pico-Ultra/Audio)
 
 IMPORTANTE: No utilices los pines FSPI. Estos están conectados directamente a la memoria flash. Cualquier alteración en sus señales puede provocar fallos en el funcionamiento del badge.
 
