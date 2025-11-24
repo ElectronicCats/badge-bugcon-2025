@@ -119,7 +119,16 @@ IMPORTANTE: No utilices los pines FSPI. Estos están conectados directamente a l
 ## Blink Blink!
 Presiona los botones que se encuentran al frente del badge y enciende los leds!!
 
+## Acceso:
+
+Para acceder al dispositivo los accesos son:
+
+*usuario:* root
+
+*password:* 1337
+
 ## Hola Mundo
+
 El badge ya incluye Python 3.11.6, por lo que puedes ejecutar scripts de Python directamente desde la terminal sin necesidad de configurar nada adicional.
 
 Esta breve guía muestra cómo crear y ejecutar un simple programa “Hola Mundo”.
